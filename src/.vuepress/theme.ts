@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/assets/icon/avatar.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+//   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
@@ -22,7 +22,7 @@ export default hopeTheme({
   navbar,
 
   // sidebar
-  sidebar,
+//   sidebar,
 
   footer: "Default footer",
 
@@ -92,6 +92,9 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+    autoCatalog: {
+        index: true
+      },
 
     components: {
       components: ["Badge", "VPCard"],

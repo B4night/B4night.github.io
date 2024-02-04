@@ -5,11 +5,10 @@ export default defineUserConfig({
   base: "/",
 
   lang: "en-US",
-  title: "Blog Demo",
+  title: "B4night",
   description: "A place where I post my thoughts",
 
   theme,
-
   // Enable it with pwa
   // shouldPrefetch: false,
 });
