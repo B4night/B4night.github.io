@@ -1,1 +1,1 @@
-export const sidebarData = {"/":["","intro"]};
+export const sidebarData = {"/":["","intro",{"text":"Posts","prefix":"posts/","collapsible":true,"children":["vuepress_build_blog"]}]};
