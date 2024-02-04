@@ -1,0 +1,78 @@
+<template><div><p>CSS语法规则由两个主要的部分构成: 选择器以及一条或多条声明(样式)</p>
+<h1 id="外部样式" tabindex="-1"><a class="header-anchor" href="#外部样式"><span>外部样式</span></a></h1>
+<p>在html的<code v-pre>&lt;head&gt;</code>标签里面使用<code v-pre>link</code>标签来链接到css文件</p>
+<p><code v-pre>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./template.css&quot;&gt;</code></p>
+<h1 id="全局选择器" tabindex="-1"><a class="header-anchor" href="#全局选择器"><span>全局选择器</span></a></h1>
+<p>可以与任何元素匹配, 优先级最低, 一般做样式初始化</p>
+<div class="language-css line-numbers-mode" data-ext="css" data-title="css"><pre v-pre class="language-css"><code><span class="token selector">*</span><span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="元素选择器" tabindex="-1"><a class="header-anchor" href="#元素选择器"><span>元素选择器</span></a></h1>
+<p>控制的是HTML文档中元素的属性, <code v-pre>p, b, div</code>等</p>
+<p>设置的是元素的共性</p>
+<div class="language-css line-numbers-mode" data-ext="css" data-title="css"><pre v-pre class="language-css"><code><span class="token selector">&lt;elementName></span> <span class="token punctuation">{</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="类选择器" tabindex="-1"><a class="header-anchor" href="#类选择器"><span>类选择器</span></a></h1>
+<div class="language-csharp line-numbers-mode" data-ext="cs" data-title="cs"><pre v-pre class="language-csharp"><code><span class="token punctuation">.</span>oneclass<span class="token punctuation">{</span>	<span class="token comment">// 使用.来定义</span>
+    width<span class="token punctuation">:</span>800px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token operator">&lt;</span>h2 <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"oneclass"</span><span class="token operator">></span>你好<span class="token operator">&lt;</span><span class="token operator">/</span>h2<span class="token operator">></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>同一个标签可以使用多个类选择器</p>
+<div class="language-html line-numbers-mode" data-ext="html" data-title="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>classone classtwo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+     你好
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1 id="id选择器" tabindex="-1"><a class="header-anchor" href="#id选择器"><span>ID选择器</span></a></h1>
+<p>CSS 的 ID 选择器是一种在 CSS（层叠样式表）中用来选择并应用样式的方法，它通过 HTML 元素的唯一 ID 来指定样式。ID 选择器在 CSS 中是非常强大且常用的，它提供了一种直接且高效的方式来定位页面上的特定元素，并对其应用独特的样式。</p>
+<h3 id="基本语法" tabindex="-1"><a class="header-anchor" href="#基本语法"><span>基本语法</span></a></h3>
+<ul>
+<li>ID 选择器以井号（<code v-pre>#</code>）开始，后跟 HTML 元素的 ID。</li>
+<li>在 HTML 中，每个 ID 应当是唯一的，即每个 ID 标识符只能被分配给一个页面元素。</li>
+</ul>
+<p>例如，如果你有一个 HTML 元素定义如下：</p>
+<pre><code>&lt;div id=&quot;myElement&quot;&gt;内容&lt;/div&gt;
+</code></pre>
+<p>你可以使用 ID 选择器在 CSS 中为它定义样式：</p>
+<pre><code>#myElement {
+    color: blue;
+    background-color: yellow;
+}
+</code></pre>
+<h1 id="优先级" tabindex="-1"><a class="header-anchor" href="#优先级"><span>优先级</span></a></h1>
+<ol>
+<li>行内样式</li>
+<li>ID选择器</li>
+<li>类选择器</li>
+<li>元素选择器</li>
+</ol>
+<h1 id="字体属性" tabindex="-1"><a class="header-anchor" href="#字体属性"><span>字体属性</span></a></h1>
+<ol>
+<li>color: 颜色</li>
+<li>font-size: 设置文本大小</li>
+<li>font-wright: 设置文本粗细</li>
+<li>font-style: 设置文本字体样式</li>
+<li>font-family: 选择字体</li>
+</ol>
+<div class="language-css line-numbers-mode" data-ext="css" data-title="css"><pre v-pre class="language-css"><code><span class="token selector">p</span> <span class="token punctuation">{</span>
+  <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"Times New Roman"</span><span class="token punctuation">,</span> Times<span class="token punctuation">,</span> serif<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在这个例子中，浏览器首先尝试使用 <code v-pre>&quot;Times New Roman&quot;</code> 字体。如果这个字体在用户的系统中不可用，它会尝试使用备选字体 <code v-pre>Times</code>。如果 <code v-pre>Times</code> 也不可用，浏览器将使用一种默认的衬线字体（serif）。</p>
+<h1 id="背景属性" tabindex="-1"><a class="header-anchor" href="#背景属性"><span>背景属性</span></a></h1>
+<ol>
+<li>background-color: 设置背景颜色</li>
+<li>background-image: 设置背景图片</li>
+<li>background-position: 设置背景图片显示位置</li>
+<li>background-repeat: 设置背景文件如何填充</li>
+<li>background-size: 设置背景图片大小属性</li>
+</ol>
+<h1 id="文本属性" tabindex="-1"><a class="header-anchor" href="#文本属性"><span>文本属性</span></a></h1>
+<ol>
+<li>text-align: 水平对齐方式</li>
+<li>text-decoration: 添加修饰</li>
+<li></li>
+</ol>
+</div></template>
+
+
