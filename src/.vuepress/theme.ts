@@ -24,9 +24,9 @@ export default hopeTheme({
   // sidebar
 //   sidebar,
 
-  footer: "Default footer",
+//   footer: "Seize the day",
 
-  displayFooter: true,
+//   displayFooter: false,
 
   encrypt: {
     config: {
@@ -74,9 +74,9 @@ export default hopeTheme({
     },
   },
 
-  metaLocales: {
-    editLink: "Edit this page on GitHub",
-  },
+//   metaLocales: {
+//     editLink: "Edit this page on GitHub",
+//   },
 
   // enable it to preview all changes in time
   // hotReload: true,
@@ -94,11 +94,11 @@ export default hopeTheme({
     // },
     autoCatalog: {
         index: true
-      },
-
-    components: {
-      components: ["Badge", "VPCard"],
     },
+
+    // components: {
+    //   components: ["Badge", "VPCard"],
+    // },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {

@@ -30,4 +30,7 @@ yarn-error.log*
 
 # 其他
 *.cache
-/temp
+**/.temp
+
+# local configuration
+.env.local

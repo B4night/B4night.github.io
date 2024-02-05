@@ -1,0 +1,12 @@
+tasks:
+  - name: blog
+    input:
+      name: '@mark-magic/plugin-joplin'
+      config:
+        baseUrl: 'http://localhost:41184'
+        token:                 
+        tag: post # filter notes by tag
+    output:
+      name: '@mark-magic/plugin-hexo' # Output plugin to generate the files required by Hexo
+      config:
+        path: './hexo' # The root directory of the Hexo project
