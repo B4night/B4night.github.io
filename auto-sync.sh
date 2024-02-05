@@ -9,7 +9,7 @@ npx mark-magic
 hexo_dir="./hexo/source/_posts"
 pushd $hexo_dir
 for md_file in *.md; do
-    file_name=$(cat $md_file | grep "title: " | cut -d ":" -f 2- | sed 's/"//g')
+    file_name=$(cat $md_file | grep "title: " | cut -d ":" -f 2- | sed 's/"//g; s/ /_/g')
     timestamp_ms=$(cat $md_file | grep "date: " | awk -F ": " '{print $2}')
     timestamp_sec=$(($timestamp_ms / 1000))
     file_date=$(date -d "@$timestamp_sec" '+%Y-%m-%d')

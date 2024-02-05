@@ -5,40 +5,40 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/index.html.vue")),
   // path: /intro.html
   "v-184f4da6": defineAsyncComponent(() => import(/* webpackChunkName: "v-184f4da6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/intro.html.vue")),
-  // path: /posts/%20Download%20_.torrent_%20file%20under%20Fedora.html
-  "v-6f3cd246": defineAsyncComponent(() => import(/* webpackChunkName: "v-6f3cd246" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Download _.torrent_ file under Fedora.html.vue")),
-  // path: /posts/%20Fedora%20set%20display%20scale%20150%25(gnome).html
-  "v-19144f4a": defineAsyncComponent(() => import(/* webpackChunkName: "v-19144f4a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Fedora set display scale 150%(gnome).html.vue")),
-  // path: /posts/%20Git%20switch%20branches%20with%20modified%20files.html
-  "v-327653c2": defineAsyncComponent(() => import(/* webpackChunkName: "v-327653c2" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Git switch branches with modified files.html.vue")),
-  // path: /posts/%20Joplin%20exits%20full%20screen%20in%20Linux.html
-  "v-7bc29e63": defineAsyncComponent(() => import(/* webpackChunkName: "v-7bc29e63" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Joplin exits full screen in Linux.html.vue")),
-  // path: /posts/%20Linux%20Trick_%20Create%20desktop%20entries%20for%20apps.html
-  "v-8c8262f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-8c8262f4" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Linux Trick_ Create desktop entries for apps.html.vue")),
-  // path: /posts/%20Open%20folder%20at%20terminal.%20Linux.html
-  "v-5d6ace1c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d6ace1c" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Open folder at terminal. Linux.html.vue")),
-  // path: /posts/%20Program%20executed%20by%20Linux%20Terminal%20has%20the%20same%20proxy%20with%20the%20terminal_.html
-  "v-5a6c26be": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a6c26be" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Program executed by Linux Terminal has the same proxy with the terminal_.html.vue")),
-  // path: /posts/%20Redirect%20terminal%20output%20to%20clipboard..html
-  "v-4fd75f66": defineAsyncComponent(() => import(/* webpackChunkName: "v-4fd75f66" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Redirect terminal output to clipboard..html.vue")),
-  // path: /posts/%20Set%20Bluetooth%20off%20as%20default%20at%20rebooting%20in%20Fedora.html
-  "v-598ffdfd": defineAsyncComponent(() => import(/* webpackChunkName: "v-598ffdfd" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Set Bluetooth off as default at rebooting in Fedora.html.vue")),
-  // path: /posts/%20Set%20default%20editor%20in%20Linux.html
-  "v-1b503f84": defineAsyncComponent(() => import(/* webpackChunkName: "v-1b503f84" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Set default editor in Linux.html.vue")),
-  // path: /posts/%20Typora_upgit_tcyun_%20upload%20img%20to%20imgbed.html
-  "v-1a499874": defineAsyncComponent(() => import(/* webpackChunkName: "v-1a499874" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Typora_upgit_tcyun_ upload img to imgbed.html.vue")),
-  // path: /posts/%20Useful%20script%20sharing_%20easy%20git%20push.html
-  "v-153a8874": defineAsyncComponent(() => import(/* webpackChunkName: "v-153a8874" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Useful script sharing_ easy git push.html.vue")),
-  // path: /posts/%20Using%20ssh%20through%20SOCKS5%20proxy..html
-  "v-519070c2": defineAsyncComponent(() => import(/* webpackChunkName: "v-519070c2" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Using ssh through SOCKS5 proxy..html.vue")),
-  // path: /posts/%20Vue%20Download%20failure%20about%20Ipv4.html
-  "v-6bb8daf5": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb8daf5" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Vue Download failure about Ipv4.html.vue")),
-  // path: /posts/%20Watch%20a%20process%20with%20pid%20under%20Linux..html
-  "v-4dd815f7": defineAsyncComponent(() => import(/* webpackChunkName: "v-4dd815f7" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ Watch a process with pid under Linux..html.vue")),
-  // path: /posts/%20git%20push%20fatal_%20The%20remote%20end%20hung%20up%20unexpectedly.html
-  "v-ea1b8e4a": defineAsyncComponent(() => import(/* webpackChunkName: "v-ea1b8e4a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ git push fatal_ The remote end hung up unexpectedly.html.vue")),
-  // path: /posts/%20git%20rebase%20and%20git%20amend.html
-  "v-62801227": defineAsyncComponent(() => import(/* webpackChunkName: "v-62801227" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/ git rebase and git amend.html.vue")),
+  // path: /posts/Download__.torrent__file_under_Fedora.html
+  "v-028df316": defineAsyncComponent(() => import(/* webpackChunkName: "v-028df316" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Download__.torrent__file_under_Fedora.html.vue")),
+  // path: /posts/Fedora_set_display_scale_150%25(gnome).html
+  "v-50257584": defineAsyncComponent(() => import(/* webpackChunkName: "v-50257584" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Fedora_set_display_scale_150%(gnome).html.vue")),
+  // path: /posts/Git_switch_branches_with_modified_files.html
+  "v-c4eff4b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-c4eff4b6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Git_switch_branches_with_modified_files.html.vue")),
+  // path: /posts/Joplin_exits_full_screen_in_Linux.html
+  "v-329fbe4e": defineAsyncComponent(() => import(/* webpackChunkName: "v-329fbe4e" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Joplin_exits_full_screen_in_Linux.html.vue")),
+  // path: /posts/Linux_Trick__Create_desktop_entries_for_apps.html
+  "v-599a940f": defineAsyncComponent(() => import(/* webpackChunkName: "v-599a940f" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Linux_Trick__Create_desktop_entries_for_apps.html.vue")),
+  // path: /posts/Open_folder_at_terminal._Linux.html
+  "v-2e5886cd": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e5886cd" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Open_folder_at_terminal._Linux.html.vue")),
+  // path: /posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal_.html
+  "v-26b2d5d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-26b2d5d6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal_.html.vue")),
+  // path: /posts/Redirect_terminal_output_to_clipboard..html
+  "v-8ef32474": defineAsyncComponent(() => import(/* webpackChunkName: "v-8ef32474" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Redirect_terminal_output_to_clipboard..html.vue")),
+  // path: /posts/Set_Bluetooth_off_as_default_at_rebooting_in_Fedora.html
+  "v-7942285c": defineAsyncComponent(() => import(/* webpackChunkName: "v-7942285c" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Set_Bluetooth_off_as_default_at_rebooting_in_Fedora.html.vue")),
+  // path: /posts/Set_default_editor_in_Linux.html
+  "v-0b391cc6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b391cc6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Set_default_editor_in_Linux.html.vue")),
+  // path: /posts/Typora_upgit_tcyun__upload_img_to_imgbed.html
+  "v-ef96b926": defineAsyncComponent(() => import(/* webpackChunkName: "v-ef96b926" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Typora_upgit_tcyun__upload_img_to_imgbed.html.vue")),
+  // path: /posts/Useful_script_sharing__easy_git_push.html
+  "v-69b7f471": defineAsyncComponent(() => import(/* webpackChunkName: "v-69b7f471" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Useful_script_sharing__easy_git_push.html.vue")),
+  // path: /posts/Using_ssh_through_SOCKS5_proxy..html
+  "v-45f803a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-45f803a1" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Using_ssh_through_SOCKS5_proxy..html.vue")),
+  // path: /posts/Vue_Download_failure_about_Ipv4.html
+  "v-3adbcca4": defineAsyncComponent(() => import(/* webpackChunkName: "v-3adbcca4" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Vue_Download_failure_about_Ipv4.html.vue")),
+  // path: /posts/Watch_a_process_with_pid_under_Linux..html
+  "v-01b17e9e": defineAsyncComponent(() => import(/* webpackChunkName: "v-01b17e9e" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Watch_a_process_with_pid_under_Linux..html.vue")),
+  // path: /posts/git_push_fatal__The_remote_end_hung_up_unexpectedly.html
+  "v-7fe25bfc": defineAsyncComponent(() => import(/* webpackChunkName: "v-7fe25bfc" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/git_push_fatal__The_remote_end_hung_up_unexpectedly.html.vue")),
+  // path: /posts/git_rebase_and_git_amend.html
+  "v-31f36298": defineAsyncComponent(() => import(/* webpackChunkName: "v-31f36298" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/git_rebase_and_git_amend.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/404.html.vue")),
   // path: /posts/

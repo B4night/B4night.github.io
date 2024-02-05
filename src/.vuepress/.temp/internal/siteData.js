@@ -1,1 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"B4night\",\"description\":\"A place where I post my thoughts\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"B4night\",\"description\":\"A place where I post my thoughts\",\"head\":[[\"link\",{\"rel\":\"alternate\",\"type\":\"application/rss+xml\",\"href\":\"https://b4night.github.io/rss.xml\",\"title\":\"B4night RSS Feed\"}]],\"locales\":{}}")
