@@ -6,11 +6,24 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Mon, 05 Feb 2024 07:08:13 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 07:08:13 GMT</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 07:12:35 GMT</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 07:12:35 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <item>
+      <title>Download `.torrent` file under Fedora</title>
+      <link>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</link>
+      <guid>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
+      <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
+      <category>Useful Skills</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
+<p>We use <code>transmission-gtk</code> to invoke the app and then choose <code>.torrent</code> fine. Then the doanload begins.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Fedora set display scale 150 percent(gnome)</title>
       <link>https://b4night.github.io/posts/Fedora_set_display_scale_150_percent(gnome).html</link>
@@ -453,19 +466,6 @@ pick de904ffd3f commit_b
 <p>This command means the <code>rebase</code> procedure is done and we are switched from a temporary branch to the branch which we want to change.</p>
 <h1><code>git push --force</code></h1>
 <p>This will push commits to remote and then overwrite the original commits because of <code>--force</code>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Download `.torrent` file under Fedora</title>
-      <link>https://b4night.github.io/posts/1.html</link>
-      <guid>https://b4night.github.io/posts/1.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
-      <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
-<p>We use <code>transmission-gtk</code> to invoke the app and then choose <code>.torrent</code> fine. Then the doanload begins.</p>
 ]]></content:encoded>
     </item>
     <item>
