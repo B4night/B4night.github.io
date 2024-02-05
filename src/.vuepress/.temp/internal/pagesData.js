@@ -5,8 +5,6 @@ export const pagesData = {
   "v-184f4da6": () => import(/* webpackChunkName: "v-184f4da6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/intro.html.js").then(({ data }) => data),
   // path: /posts/Download__.torrent__file_under_Fedora.html
   "v-028df316": () => import(/* webpackChunkName: "v-028df316" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Download__.torrent__file_under_Fedora.html.js").then(({ data }) => data),
-  // path: /posts/Fedora_set_display_scale_150%25(gnome).html
-  "v-50257584": () => import(/* webpackChunkName: "v-50257584" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Fedora_set_display_scale_150%(gnome).html.js").then(({ data }) => data),
   // path: /posts/Fedora_set_display_scale_150_percent(gnome).html
   "v-5eac0c7a": () => import(/* webpackChunkName: "v-5eac0c7a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Fedora_set_display_scale_150_percent(gnome).html.js").then(({ data }) => data),
   // path: /posts/Git_switch_branches_with_modified_files.html
@@ -57,8 +55,6 @@ export const pagesData = {
   "v-b76cabe4": () => import(/* webpackChunkName: "v-b76cabe4" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/useful-skills/index.html.js").then(({ data }) => data),
   // path: /category/download-_.torrent_-file-under-fedora.md/
   "v-ba8712f2": () => import(/* webpackChunkName: "v-ba8712f2" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/download-_.torrent_-file-under-fedora.md/index.html.js").then(({ data }) => data),
-  // path: /category/fedora-set-display-scale-150%25(gnome).md/
-  "v-5b4fb80a": () => import(/* webpackChunkName: "v-5b4fb80a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/fedora-set-display-scale-150%(gnome).md/index.html.js").then(({ data }) => data),
   // path: /category/fedora-set-display-scale-150-percent(gnome).md/
   "v-fd45db28": () => import(/* webpackChunkName: "v-fd45db28" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/fedora-set-display-scale-150-percent(gnome).md/index.html.js").then(({ data }) => data),
   // path: /category/git-switch-branches-with-modified-files.md/

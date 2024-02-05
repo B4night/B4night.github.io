@@ -7,8 +7,6 @@ export const pagesComponents = {
   "v-184f4da6": defineAsyncComponent(() => import(/* webpackChunkName: "v-184f4da6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/intro.html.vue")),
   // path: /posts/Download__.torrent__file_under_Fedora.html
   "v-028df316": defineAsyncComponent(() => import(/* webpackChunkName: "v-028df316" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Download__.torrent__file_under_Fedora.html.vue")),
-  // path: /posts/Fedora_set_display_scale_150%25(gnome).html
-  "v-50257584": defineAsyncComponent(() => import(/* webpackChunkName: "v-50257584" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Fedora_set_display_scale_150%(gnome).html.vue")),
   // path: /posts/Fedora_set_display_scale_150_percent(gnome).html
   "v-5eac0c7a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5eac0c7a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Fedora_set_display_scale_150_percent(gnome).html.vue")),
   // path: /posts/Git_switch_branches_with_modified_files.html
@@ -59,8 +57,6 @@ export const pagesComponents = {
   "v-b76cabe4": defineAsyncComponent(() => import(/* webpackChunkName: "v-b76cabe4" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/useful-skills/index.html.vue")),
   // path: /category/download-_.torrent_-file-under-fedora.md/
   "v-ba8712f2": defineAsyncComponent(() => import(/* webpackChunkName: "v-ba8712f2" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/download-_.torrent_-file-under-fedora.md/index.html.vue")),
-  // path: /category/fedora-set-display-scale-150%25(gnome).md/
-  "v-5b4fb80a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5b4fb80a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/fedora-set-display-scale-150%(gnome).md/index.html.vue")),
   // path: /category/fedora-set-display-scale-150-percent(gnome).md/
   "v-fd45db28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fd45db28" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/fedora-set-display-scale-150-percent(gnome).md/index.html.vue")),
   // path: /category/git-switch-branches-with-modified-files.md/
