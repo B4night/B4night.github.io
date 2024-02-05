@@ -9,6 +9,8 @@ export const pagesComponents = {
   "v-028df316": defineAsyncComponent(() => import(/* webpackChunkName: "v-028df316" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Download__.torrent__file_under_Fedora.html.vue")),
   // path: /posts/Fedora_set_display_scale_150%25(gnome).html
   "v-50257584": defineAsyncComponent(() => import(/* webpackChunkName: "v-50257584" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Fedora_set_display_scale_150%(gnome).html.vue")),
+  // path: /posts/Fedora_set_display_scale_150_percent(gnome).html
+  "v-5eac0c7a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5eac0c7a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Fedora_set_display_scale_150_percent(gnome).html.vue")),
   // path: /posts/Git_switch_branches_with_modified_files.html
   "v-c4eff4b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-c4eff4b6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Git_switch_branches_with_modified_files.html.vue")),
   // path: /posts/Joplin_exits_full_screen_in_Linux.html
@@ -59,6 +61,8 @@ export const pagesComponents = {
   "v-ba8712f2": defineAsyncComponent(() => import(/* webpackChunkName: "v-ba8712f2" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/download-_.torrent_-file-under-fedora.md/index.html.vue")),
   // path: /category/fedora-set-display-scale-150%25(gnome).md/
   "v-5b4fb80a": defineAsyncComponent(() => import(/* webpackChunkName: "v-5b4fb80a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/fedora-set-display-scale-150%(gnome).md/index.html.vue")),
+  // path: /category/fedora-set-display-scale-150-percent(gnome).md/
+  "v-fd45db28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fd45db28" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/fedora-set-display-scale-150-percent(gnome).md/index.html.vue")),
   // path: /category/git-switch-branches-with-modified-files.md/
   "v-0525bf66": defineAsyncComponent(() => import(/* webpackChunkName: "v-0525bf66" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/git-switch-branches-with-modified-files.md/index.html.vue")),
   // path: /category/joplin-exits-full-screen-in-linux.md/
