@@ -6,16 +6,11 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Mon, 05 Feb 2024 06:59:14 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 06:59:14 GMT</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 07:01:32 GMT</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 07:01:32 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
-    <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
-    <category>Redirect terminal output to clipboard.md</category>
-    <category>Using ssh through SOCKS5 proxy.md</category>
-    <category>Vue Download failure about Ipv4 .md</category>
-    <category>Watch a process with pid under Linux.md</category>
     <item>
       <title>Download `.torrent` file under Fedora</title>
       <link>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</link>
@@ -150,7 +145,6 @@ application for files of that type. xdg-open supports file, ftp, http and https 
       <source url="https://b4night.github.io/rss.xml">Program executed by Linux Terminal has the same proxy with the terminal?</source>
       <description>Program executed by Linux Terminal has the same proxy with the terminal? Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I...</description>
       <category>Useful Skills</category>
-      <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I set the global proxy of terminal.</p>
@@ -165,7 +159,6 @@ application for files of that type. xdg-open supports file, ftp, http and https 
       <source url="https://b4night.github.io/rss.xml">Redirect terminal output to clipboard.</source>
       <description>Redirect terminal output to clipboard. This post is about using xclip command to redirect the output of a command to clipboard. install xclip use command cat output | xclip -sel...</description>
       <category>Useful Skills</category>
-      <category>Redirect terminal output to clipboard.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>This post is about using <code>xclip</code> command to redirect the output of a command to clipboard.</p>
@@ -281,7 +274,6 @@ secret_key = "xxx"
       <source url="https://b4night.github.io/rss.xml">Using ssh through SOCKS5 proxy.</source>
       <description>Using ssh through SOCKS5 proxy. Below are operations on Fedora39. Download netcat . In Ubuntu-like system, nc is needed. Edit ~/.ssh/config Add lines like: In essence, this conf...</description>
       <category>Useful Skills</category>
-      <category>Using ssh through SOCKS5 proxy.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Below are operations on Fedora39.</p>
@@ -300,7 +292,6 @@ secret_key = "xxx"
       <source url="https://b4night.github.io/rss.xml">Vue Download failure about Ipv4</source>
       <description>Vue Download failure about Ipv4 Today I ran into fail when downloading vue using command npm install -g @vue/cli , after changing several mirror registry, the fail was still the...</description>
       <category>Useful Skills</category>
-      <category>Vue Download failure about Ipv4 .md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I ran into fail when downloading vue using command <code>npm install -g @vue/cli</code> , after changing several mirror registry, the fail was still there.</p>
@@ -316,7 +307,6 @@ secret_key = "xxx"
       <source url="https://b4night.github.io/rss.xml">Watch a process with pid under Linux.</source>
       <description>Watch a process with pid under Linux. We need pidstat command to monitor processes. e.g.: pidstat -p [pid] 1 , this can print the status each second. </description>
       <category>Useful Skills</category>
-      <category>Watch a process with pid under Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>We need <code>pidstat</code> command to monitor processes.</p>
