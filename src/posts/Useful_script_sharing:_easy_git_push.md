@@ -5,7 +5,6 @@ title: "Useful script sharing: easy git push"
 tags: []
 categories:
   - Useful Skills
-  - Useful script sharing! easy git push.md
 ---
 
 # Useful script sharing: easy git push

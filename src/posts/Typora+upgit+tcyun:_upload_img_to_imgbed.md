@@ -5,7 +5,6 @@ title: "Typora+upgit+tcyun: upload img to imgbed"
 tags: []
 categories:
   - Useful Skills
-  - Typora+upgit+tcyun! upload img to imgbed.md
 ---
 
 # Typora+upgit+tcyun: upload img to imgbed

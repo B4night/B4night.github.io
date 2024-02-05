@@ -5,7 +5,6 @@ title: "Linux Trick: Create desktop entries for apps"
 tags: []
 categories:
   - Useful Skills
-  - Linux Trick! Create desktop entries for apps.md
 ---
 
 # Linux Trick: Create desktop entries for apps
