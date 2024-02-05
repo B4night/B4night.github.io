@@ -6,24 +6,11 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Mon, 05 Feb 2024 07:01:02 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 07:01:02 GMT</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 07:08:13 GMT</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 07:08:13 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
-    <item>
-      <title>Download `.torrent` file under Fedora</title>
-      <link>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</link>
-      <guid>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
-      <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
-<p>We use <code>transmission-gtk</code> to invoke the app and then choose <code>.torrent</code> fine. Then the doanload begins.</p>
-]]></content:encoded>
-    </item>
     <item>
       <title>Fedora set display scale 150 percent(gnome)</title>
       <link>https://b4night.github.io/posts/Fedora_set_display_scale_150_percent(gnome).html</link>
@@ -469,11 +456,24 @@ pick de904ffd3f commit_b
 ]]></content:encoded>
     </item>
     <item>
-      <title>Intro Page</title>
+      <title>Download `.torrent` file under Fedora</title>
+      <link>https://b4night.github.io/posts/1.html</link>
+      <guid>https://b4night.github.io/posts/1.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
+      <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
+      <category>Useful Skills</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
+<p>We use <code>transmission-gtk</code> to invoke the app and then choose <code>.torrent</code> fine. Then the doanload begins.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bio</title>
       <link>https://b4night.github.io/intro.html</link>
       <guid>https://b4night.github.io/intro.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Intro Page</source>
-      <description>Intro Page This is B4night and that nick name comes from dead poets society. It means before(b4) night which reminds me to cherish time. Work Experience I am a senior student an...</description>
+      <source url="https://b4night.github.io/rss.xml">Bio</source>
+      <description>Bio This is B4night and that nick name comes from dead poets society. It means before(b4) night which reminds me to cherish time. Work Experience I am a senior student and I am ...</description>
       <pubDate>Sun, 04 Feb 2024 11:37:11 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>This is B4night and that nick name comes from <code>dead poets society</code>. It means before(b4) night which reminds me to cherish time.</p>
