@@ -6,7 +6,7 @@ title: Blog Home
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: B4night's blog
 tagline: Carpe diem.
-heroFullScreen: true
+heroFullScreen: false
 # projects:
 #   - icon: project
 #     name: project name
@@ -38,5 +38,5 @@ heroFullScreen: true
 #     desc: Detailed description of this custom item
 #     link: https://link.to.your.friend
 
-footer: customize your footer text
+footer: Seize the day
 ---
