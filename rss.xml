@@ -6,28 +6,33 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Mon, 05 Feb 2024 06:54:02 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 06:54:02 GMT</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 06:54:28 GMT</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 06:54:28 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
-    <category>Fedora set display scale 150 percent(gnome).md</category>
-    <category>Download `.torrent` file under Fedora.md</category>
-    <category>Git switch branches with modified files.md</category>
-    <category>Joplin exits full screen in Linux.md</category>
     <category>Linux Trick! Create desktop entries for apps.md</category>
-    <category>Open folder at terminal. Linux.md</category>
     <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
     <category>Redirect terminal output to clipboard.md</category>
-    <category>Set Bluetooth off as default at rebooting in Fedora.md</category>
-    <category>Set default editor in Linux.md</category>
     <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
     <category>Useful script sharing! easy git push.md</category>
     <category>Using ssh through SOCKS5 proxy.md</category>
     <category>Vue Download failure about Ipv4 .md</category>
     <category>Watch a process with pid under Linux.md</category>
     <category>git push fatal! The remote end hung up unexpectedly.md</category>
-    <category>git rebase and git amend.md</category>
+    <item>
+      <title>Download `.torrent` file under Fedora</title>
+      <link>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</link>
+      <guid>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
+      <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
+      <category>Useful Skills</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
+<p>We use <code>transmission-gtk</code> to invoke the app and then choose <code>.torrent</code> fine. Then the doanload begins.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Fedora set display scale 150 percent(gnome)</title>
       <link>https://b4night.github.io/posts/Fedora_set_display_scale_150_percent(gnome).html</link>
@@ -35,7 +40,6 @@
       <source url="https://b4night.github.io/rss.xml">Fedora set display scale 150 percent(gnome)</source>
       <description>Fedora set display scale 150 percent(gnome) The default display options are 100%, 200%, 300%. It’s awkward because some people might want to customize the display scale. There’s...</description>
       <category>Useful Skills</category>
-      <category>Fedora set display scale 150 percent(gnome).md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The default display options are <code>100%, 200%, 300%</code>. It’s awkward because some people might want to customize the display scale.</p>
@@ -53,27 +57,12 @@
       <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707111002.png" type="image/png"/>
     </item>
     <item>
-      <title>Download `.torrent` file under Fedora</title>
-      <link>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</link>
-      <guid>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
-      <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
-      <category>Useful Skills</category>
-      <category>Download `.torrent` file under Fedora.md</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
-<p>We use <code>transmission-gtk</code> to invoke the app and then choose <code>.torrent</code> fine. Then the doanload begins.</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Git switch branches with modified files</title>
       <link>https://b4night.github.io/posts/Git_switch_branches_with_modified_files.html</link>
       <guid>https://b4night.github.io/posts/Git_switch_branches_with_modified_files.html</guid>
       <source url="https://b4night.github.io/rss.xml">Git switch branches with modified files</source>
       <description>Git switch branches with modified files I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use git add to track m...</description>
       <category>Useful Skills</category>
-      <category>Git switch branches with modified files.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use <code>git add</code> to track modified too early and I have to switch another branch.</p>
@@ -97,7 +86,6 @@
       <source url="https://b4night.github.io/rss.xml">Joplin exits full screen in Linux</source>
       <description>Joplin exits full screen in Linux Today I maximized joplin when I was using it. But when I wanted to change the options, I used f11 to exit full screen. However, f11 is bonded t...</description>
       <category>Useful Skills</category>
-      <category>Joplin exits full screen in Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I maximized joplin when I was using it. But when I wanted to change the options, I used <code>f11</code> to exit full screen. However, <code>f11</code> is bonded to another feature, so that I can’t use it to exit.</p>
@@ -145,7 +133,6 @@ Exec=typora
       <source url="https://b4night.github.io/rss.xml">Open folder at terminal. Linux</source>
       <description>Open folder at terminal. Linux The commend we need to use today is xdg-open . Below is a brief description: DESCRIPTION xdg-open opens a file or URL in the user’s preferred appl...</description>
       <category>Useful Skills</category>
-      <category>Open folder at terminal. Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The commend we need to use today is <code>xdg-open</code> .</p>
@@ -203,7 +190,6 @@ e.g. <code>alias clip=”xclip -selection clipboard”</code></li>
       <source url="https://b4night.github.io/rss.xml">Set Bluetooth off as default at rebooting in Fedora</source>
       <description>Set Bluetooth off as default at rebooting in Fedora We need to edit the file /etc/bluetooth/main.conf Find the line AutoEnable=true , change it to AutoEnable=false and voila, Bl...</description>
       <category>Useful Skills</category>
-      <category>Set Bluetooth off as default at rebooting in Fedora.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>We need to edit the file <code>/etc/bluetooth/main.conf</code></p>
@@ -217,7 +203,6 @@ e.g. <code>alias clip=”xclip -selection clipboard”</code></li>
       <source url="https://b4night.github.io/rss.xml">Set default editor in Linux</source>
       <description>Set default editor in Linux This need to edit the config file of the shell you are using. For example, I am using zsh right now so that I have to change ~/.zshrc . All I have to...</description>
       <category>Useful Skills</category>
-      <category>Set default editor in Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>This need to edit the config file of the shell you are using.</p>
@@ -369,7 +354,6 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">git rebase and git amend</source>
       <description>git rebase and git amend The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations. Set typora options 2. downlo...</description>
       <category>Useful Skills</category>
-      <category>git rebase and git amend.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations.</p>
