@@ -13,6 +13,8 @@ for md_file in *.md; do
     timestamp_ms=$(cat $md_file | grep "date: " | awk -F ": " '{print $2}')
     timestamp_sec=$(($timestamp_ms / 1000))
     file_date=$(date -d "@$timestamp_sec" '+%Y-%m-%d')
+
+    category_to_remove=$(echo $file_name | sed 's/:/!/g')
     sed -i "/$file_name\.md/d" $md_file
     sed -i '/updated:/d; /date:/d; /abbrlink:/d; /layout:/d' $md_file
     sed -i "2i date: $file_date" $md_file
