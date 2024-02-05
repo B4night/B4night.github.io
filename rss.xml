@@ -6,15 +6,15 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Mon, 05 Feb 2024 07:08:40 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 07:08:40 GMT</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 07:13:02 GMT</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 07:13:02 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
     <item>
       <title>Download `.torrent` file under Fedora</title>
-      <link>https://b4night.github.io/posts/1.html</link>
-      <guid>https://b4night.github.io/posts/1.html</guid>
+      <link>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</link>
+      <guid>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</guid>
       <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
       <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
       <category>Useful Skills</category>
