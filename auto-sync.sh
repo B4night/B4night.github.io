@@ -19,8 +19,8 @@ for md_file in *.md; do
     sed -i "2i author: B4night" $md_file
 
     file_name=$(echo $file_name | sed 's/"//g; s/ /_/g')
-    mv "$md_file" "${file_name}.md"
-    # mv $md_file ../../../src/posts/"${file_name}".md
+    # mv "$md_file" "${file_name}.md"
+    mv $md_file ../../../src/posts/"${file_name}".md
     # pwd
 done
 
