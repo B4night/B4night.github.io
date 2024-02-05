@@ -94,7 +94,7 @@ export default hopeTheme({
     // },
     autoCatalog: {
         index: true
-      },
+    },
 
     // components: {
     //   components: ["Badge", "VPCard"],
