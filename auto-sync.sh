@@ -16,8 +16,8 @@ for md_file in *.md; do
     sed -i '/updated:/d; /date:/d; /abbrlink:/d; /layout:/d' $md_file
     sed -i "2i date: $file_date" $md_file
     sed -i "2i author: B4night" $md_file
-    mv "$md_file" "${file_name}.md"
-    # mv $md_file ../../../src/posts/"${file_name}".md
+    # mv "$md_file" "${file_name}.md"
+    mv $md_file ../../../src/posts/"${file_name}".md
     # pwd
 done
 
