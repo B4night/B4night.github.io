@@ -5,7 +5,6 @@ title: Redirect terminal output to clipboard.
 tags: []
 categories:
   - Useful Skills
-  - Redirect terminal output to clipboard.md
 ---
 
 # Redirect terminal output to clipboard.

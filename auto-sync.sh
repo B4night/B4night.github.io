@@ -14,7 +14,7 @@ for md_file in *.md; do
     timestamp_sec=$(($timestamp_ms / 1000))
     file_date=$(date -d "@$timestamp_sec" '+%Y-%m-%d')
 
-    category_to_remove=$(echo $file_name | sed 's/:/!/g')
+    category_to_remove=$(echo $file_name | sed 's/:/!/g; s/.//g; s/?//g')
     # echo "$category_to_remove"
     sed -i "/$category_to_remove\.md/d" $md_file
     sed -i '/updated:/d; /date:/d; /abbrlink:/d; /layout:/d' $md_file

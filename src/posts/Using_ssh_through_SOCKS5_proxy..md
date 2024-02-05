@@ -5,7 +5,6 @@ title: Using ssh through SOCKS5 proxy.
 tags: []
 categories:
   - Useful Skills
-  - Using ssh through SOCKS5 proxy.md
 ---
 
 # Using ssh through SOCKS5 proxy.

@@ -55,14 +55,4 @@ export const pagesComponents = {
   "v-01560935": defineAsyncComponent(() => import(/* webpackChunkName: "v-01560935" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/timeline/index.html.vue")),
   // path: /category/useful-skills/
   "v-b76cabe4": defineAsyncComponent(() => import(/* webpackChunkName: "v-b76cabe4" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/useful-skills/index.html.vue")),
-  // path: /category/program-executed-by-linux-terminal-has-the-same-proxy-with-the-terminal.md/
-  "v-2e4d6271": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e4d6271" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/program-executed-by-linux-terminal-has-the-same-proxy-with-the-terminal.md/index.html.vue")),
-  // path: /category/redirect-terminal-output-to-clipboard.md/
-  "v-155deb02": defineAsyncComponent(() => import(/* webpackChunkName: "v-155deb02" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/redirect-terminal-output-to-clipboard.md/index.html.vue")),
-  // path: /category/using-ssh-through-socks5-proxy.md/
-  "v-7a50a282": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a50a282" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/using-ssh-through-socks5-proxy.md/index.html.vue")),
-  // path: /category/vue-download-failure-about-ipv4-.md/
-  "v-06aeb3ae": defineAsyncComponent(() => import(/* webpackChunkName: "v-06aeb3ae" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/vue-download-failure-about-ipv4-.md/index.html.vue")),
-  // path: /category/watch-a-process-with-pid-under-linux.md/
-  "v-ae57df40": defineAsyncComponent(() => import(/* webpackChunkName: "v-ae57df40" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/watch-a-process-with-pid-under-linux.md/index.html.vue")),
 }

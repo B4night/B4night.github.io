@@ -5,7 +5,6 @@ title: Watch a process with pid under Linux.
 tags: []
 categories:
   - Useful Skills
-  - Watch a process with pid under Linux.md
 ---
 
 # Watch a process with pid under Linux.

@@ -5,7 +5,6 @@ title: Program executed by Linux Terminal has the same proxy with the terminal?
 tags: []
 categories:
   - Useful Skills
-  - Program executed by Linux Terminal has the same proxy with the terminal.md
 ---
 
 # Program executed by Linux Terminal has the same proxy with the terminal?
