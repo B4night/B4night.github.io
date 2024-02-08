@@ -5,6 +5,8 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/index.html.vue")),
   // path: /intro.html
   "v-184f4da6": defineAsyncComponent(() => import(/* webpackChunkName: "v-184f4da6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/intro.html.vue")),
+  // path: /posts/Disable_keyboard_driver_on_win11.html
+  "v-00b30a32": defineAsyncComponent(() => import(/* webpackChunkName: "v-00b30a32" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Disable_keyboard_driver_on_win11.html.vue")),
   // path: /posts/Download__.torrent__file_under_Fedora.html
   "v-028df316": defineAsyncComponent(() => import(/* webpackChunkName: "v-028df316" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Download__.torrent__file_under_Fedora.html.vue")),
   // path: /posts/Fedora_set_display_scale_150_percent(gnome).html

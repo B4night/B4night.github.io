@@ -3,6 +3,8 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /intro.html
   "v-184f4da6": () => import(/* webpackChunkName: "v-184f4da6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/intro.html.js").then(({ data }) => data),
+  // path: /posts/Disable_keyboard_driver_on_win11.html
+  "v-00b30a32": () => import(/* webpackChunkName: "v-00b30a32" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Disable_keyboard_driver_on_win11.html.js").then(({ data }) => data),
   // path: /posts/Download__.torrent__file_under_Fedora.html
   "v-028df316": () => import(/* webpackChunkName: "v-028df316" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Download__.torrent__file_under_Fedora.html.js").then(({ data }) => data),
   // path: /posts/Fedora_set_display_scale_150_percent(gnome).html
