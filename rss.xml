@@ -6,11 +6,32 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Mon, 05 Feb 2024 07:13:02 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 07:13:02 GMT</lastBuildDate>
+    <pubDate>Thu, 08 Feb 2024 14:44:40 GMT</pubDate>
+    <lastBuildDate>Thu, 08 Feb 2024 14:44:40 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <item>
+      <title>Disable keyboard driver on win11</title>
+      <link>https://b4night.github.io/posts/Disable_keyboard_driver_on_win11.html</link>
+      <guid>https://b4night.github.io/posts/Disable_keyboard_driver_on_win11.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Disable keyboard driver on win11</source>
+      <description>Disable keyboard driver on win11 Today I ran into a hardware bug which was really annoying. My laptop keyboard inputed r constantly and I couldn&amp;apos;t fix it. I think it&amp;apos;s because t...</description>
+      <category>Useful Skills</category>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Today I ran into a hardware bug which was really annoying. My laptop keyboard inputed <code>r</code> constantly and I couldn't fix it. I think it's because the motherboard is rotten. I could not open and remove the corrupted part. So the easiest way is disabling keyboard driver and use external keyboard.</p>
+<p>It takes 2 steps to disable keyboard driver.</p>
+<ol>
+<li>Open <code>Devide Manager</code> and <strong>Uninstall</strong> keyboard device. For me, it's <code>PS/2</code>.</li>
+<li>Then, run <code>cmd</code> as administrator and execute command <code>sc config i8042prt start= disabled</code></li>
+</ol>
+<p>Then, after rebooting, the build-in keyboard will be disabled.</p>
+<h2>Re-able the driver</h2>
+<p>Run <code>cmd</code> as administator and execute command <code>sc config i8042prt start= auto</code>.</p>
+<p>After rebooting and the keyboard driver will be loaded.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Download `.torrent` file under Fedora</title>
       <link>https://b4night.github.io/posts/Download__.torrent__file_under_Fedora.html</link>
