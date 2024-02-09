@@ -5,6 +5,8 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/index.html.vue")),
   // path: /intro.html
   "v-184f4da6": defineAsyncComponent(() => import(/* webpackChunkName: "v-184f4da6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/intro.html.vue")),
+  // path: /posts/2024%E6%96%B0%E6%98%A5%E5%BF%AB%E4%B9%90_Happy_Chinese_New_Year.html
+  "v-4405fc70": defineAsyncComponent(() => import(/* webpackChunkName: "v-4405fc70" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/2024新春快乐_Happy_Chinese_New_Year.html.vue")),
   // path: /posts/Disable_keyboard_driver_on_win11.html
   "v-00b30a32": defineAsyncComponent(() => import(/* webpackChunkName: "v-00b30a32" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Disable_keyboard_driver_on_win11.html.vue")),
   // path: /posts/Download__.torrent__file_under_Fedora.html
@@ -57,6 +59,8 @@ export const pagesComponents = {
   "v-154dc4c4": defineAsyncComponent(() => import(/* webpackChunkName: "v-154dc4c4" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/star/index.html.vue")),
   // path: /timeline/
   "v-01560935": defineAsyncComponent(() => import(/* webpackChunkName: "v-01560935" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/timeline/index.html.vue")),
+  // path: /category/%E9%9A%8F%E7%AC%94/
+  "v-60649a06": defineAsyncComponent(() => import(/* webpackChunkName: "v-60649a06" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/随笔/index.html.vue")),
   // path: /category/useful-skills/
   "v-b76cabe4": defineAsyncComponent(() => import(/* webpackChunkName: "v-b76cabe4" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/category/useful-skills/index.html.vue")),
 }
