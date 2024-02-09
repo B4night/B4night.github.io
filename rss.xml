@@ -6,8 +6,8 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Thu, 08 Feb 2024 14:44:40 GMT</pubDate>
-    <lastBuildDate>Thu, 08 Feb 2024 14:44:40 GMT</lastBuildDate>
+    <pubDate>Fri, 09 Feb 2024 08:32:10 GMT</pubDate>
+    <lastBuildDate>Fri, 09 Feb 2024 08:32:10 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
@@ -103,9 +103,10 @@
 <p>Today I maximized joplin when I was using it. But when I wanted to change the options, I used <code>f11</code> to exit full screen. However, <code>f11</code> is bonded to another feature, so that I can’t use it to exit.</p>
 <p>Here is the solution.</p>
 <ol>
-<li>Find the file <code>window-state-prod.json </code>Use the command <code>find / -name "window-state-prod.json</code></li>
+<li>Find the file <code>window-state-prod.json</code> Use the command <code>find / -name "window-state-prod.json"</code></li>
 <li>Edit the json file and set <code>isFullScreen</code> to <code>false</code></li>
 </ol>
+<p>If you want do disable entering full-screen size. You can cursor to <code>Tools&gt;Options&gt;Keyboard Shortcuts</code> and disable command which uses <code>F11</code></p>
 ]]></content:encoded>
     </item>
     <item>
