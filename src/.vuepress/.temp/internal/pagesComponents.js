@@ -29,6 +29,8 @@ export const pagesComponents = {
   "v-7942285c": defineAsyncComponent(() => import(/* webpackChunkName: "v-7942285c" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Set_Bluetooth_off_as_default_at_rebooting_in_Fedora.html.vue")),
   // path: /posts/Set_default_editor_in_Linux.html
   "v-0b391cc6": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b391cc6" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Set_default_editor_in_Linux.html.vue")),
+  // path: /posts/So_excited_about_my_first_macbook.html
+  "v-67000044": defineAsyncComponent(() => import(/* webpackChunkName: "v-67000044" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/So_excited_about_my_first_macbook.html.vue")),
   // path: /posts/Typora_upgit_tcyun__upload_img_to_imgbed.html
   "v-ef96b926": defineAsyncComponent(() => import(/* webpackChunkName: "v-ef96b926" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/Typora_upgit_tcyun__upload_img_to_imgbed.html.vue")),
   // path: /posts/Useful_script_sharing__easy_git_push.html
