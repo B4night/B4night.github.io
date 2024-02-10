@@ -6,8 +6,8 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Sat, 10 Feb 2024 06:22:26 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Feb 2024 06:22:26 GMT</lastBuildDate>
+    <pubDate>Sat, 10 Feb 2024 06:22:59 GMT</pubDate>
+    <lastBuildDate>Sat, 10 Feb 2024 06:22:59 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>随笔</category>
@@ -24,55 +24,6 @@
 <p>今年的年味比往年浓了很多, 公园里, 小区里都是放烟花的人, 据同学说警察也在一边观看, 没有阻拦. 过去几年, 人们的心中都憋着气, 平日里的困苦彷徨, 都让它们随着烟花消失吧.</p>
 <p>希望2024年, 生活会更好.</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>使用clash verge和chrome extrnsion proxy omega来访问互联网</title>
-      <link>https://b4night.github.io/posts/%E4%BD%BF%E7%94%A8clash_verge%E5%92%8Cchrome_extrnsion_proxy_omega%E6%9D%A5%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.html</link>
-      <guid>https://b4night.github.io/posts/%E4%BD%BF%E7%94%A8clash_verge%E5%92%8Cchrome_extrnsion_proxy_omega%E6%9D%A5%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.html</guid>
-      <source url="https://b4night.github.io/rss.xml">使用clash verge和chrome extrnsion proxy omega来访问互联网</source>
-      <description>使用clash verge和chrome extrnsion proxy omega来访问互联网 这半年来, 我已经帮助好几个朋友配置clash verge和chrome, 以便快捷的访问互联网. 本篇博客记录一下所需步骤, 以后可以直接转发给有需要的朋友. 1. 下载clash verge clash verge的github链接是: https:/...</description>
-      <category>Useful Skills</category>
-      <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>这半年来, 我已经帮助好几个朋友配置clash verge和chrome, 以便快捷的访问互联网. 本篇博客记录一下所需步骤, 以后可以直接转发给有需要的朋友.</p>
-<h2>1. 下载clash verge</h2>
-<p>clash verge的github链接是: <a href="https://github.com/zzzgydi/clash-verge" target="_blank" rel="noopener noreferrer">https://github.com/zzzgydi/clash-verge</a></p>
-<p>由于某些原因, 现在这个repo已经archive了, 可以从<code>Releases</code>里面下载所需要的版本.</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707466514.png" alt="Release List" tabindex="0" loading="lazy"><figcaption>Release List</figcaption></figure>
-<p>简单介绍一下这些版本:</p>
-<p>如果你是小白, 而且电脑系统是windows, 那就下载<code>Clash.Verge_1.3.8_x64-setup.exe</code></p>
-<p>如果是macos, 则下载<code>Clash.Verge_1.3.8_aarch64.dmg</code></p>
-<p>如果是linux, 下载<code>clash.verge_1.3.8_amd64.AppImage</code></p>
-<p>下载完成后就是安装, 这一部分省略</p>
-<h2>2. 配置clash</h2>
-<p>首先确保你拥有<code>URL</code>, 这里就不详细说怎么获得了.</p>
-<p>然后打开clash, 在<code>Profiles</code>这个界面输入<code>URL</code>, 然后点击<code>import</code>, 就可以获得你的订阅.</p>
-<p>在<code>Proxies</code>这部分点击global, 然后选个稳定的节点.</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707466826.png" alt="Main page" tabindex="0" loading="lazy"><figcaption>Main page</figcaption></figure>
-<p><code>Settings</code>部分小白可以按照我的配置, 专业人士可以忽略</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707466885.png" alt="Setting section" tabindex="0" loading="lazy"><figcaption>Setting section</figcaption></figure>
-<h2>3. Chrome安装Proxy SwichyOmega实现无感代理</h2>
-<p><code>Proxy SwichyOmega</code>是chrome的一个插件, 安装地址: <a href="https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener noreferrer">https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif</a></p>
-<p>其他浏览器, 比如edge也有对应的插件</p>
-<p>安装完成插件后进入选项, 可以看到如下界面
-<img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707467081.png" alt="Option page" loading="lazy"></p>
-<h3>LocalProxy配置</h3>
-<p>在左侧栏中, <code>LocalProxy</code>处是如下配置的, 注意port部分不要写错</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707467186.png" alt="LocalProxy config" tabindex="0" loading="lazy"><figcaption>LocalProxy config</figcaption></figure>
-<h3>auto switch配置</h3>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707467240.png" alt="auto switch config" tabindex="0" loading="lazy"><figcaption>auto switch config</figcaption></figure>
-<p>如果有的网站你想通过节点访问, 但是默认识别的是不使用节点访问, 那样的话就需要配置这个界面</p>
-<p>比如说你想访问<code>www.abc.com</code>, 你需要点击<code>Add condition</code>, 然后输入<code>*abc*</code>, 那么下次就会使用节点访问</p>
-<h3>手动控制访问策略</h3>
-<p>添加在auto switch里面的网站会自动识别, 然后通过节点访问.</p>
-<p>右上角的插件的icon是这样, 则说明没有使用节点访问</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707467404.png" alt="not using proxy" tabindex="0" loading="lazy"><figcaption>not using proxy</figcaption></figure>
-<p>则点击, 切换成这样, 那么所有的网站都会通过节点访问</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707467435.png" alt="using proxy" tabindex="0" loading="lazy"><figcaption>using proxy</figcaption></figure>
-<h3>Proxy SwichyOmega的配置</h3>
-<p>如果有需要导入我的配置的, 请联系油箱<code>superchaovacation@gmail.com</code></p>
-]]></content:encoded>
-      <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240209_1707466514.png" type="image/png"/>
     </item>
     <item>
       <title>Disable keyboard driver on win11</title>
