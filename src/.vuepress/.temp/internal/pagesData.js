@@ -41,8 +41,6 @@ export const pagesData = {
   "v-7fe25bfc": () => import(/* webpackChunkName: "v-7fe25bfc" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/git_push_fatal__The_remote_end_hung_up_unexpectedly.html.js").then(({ data }) => data),
   // path: /posts/git_rebase_and_git_amend.html
   "v-31f36298": () => import(/* webpackChunkName: "v-31f36298" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/git_rebase_and_git_amend.html.js").then(({ data }) => data),
-  // path: /posts/%E4%BD%BF%E7%94%A8clash_verge%E5%92%8Cchrome_extrnsion_proxy_omega%E6%9D%A5%E8%AE%BF%E9%97%AE%E4%BA%92%E8%81%94%E7%BD%91.html
-  "v-5c809e56": () => import(/* webpackChunkName: "v-5c809e56" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/posts/使用clash_verge和chrome_extrnsion_proxy_omega来访问互联网.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/home/b4night/Project/b4night.github.io/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /posts/
