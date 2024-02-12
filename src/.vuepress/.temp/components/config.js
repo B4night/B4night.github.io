@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-shared/lib/client/index.js";
+import { hasGlobalComponent } from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-shared/lib/client/index.js";
 
-import { useScriptTag } from "/home/b4night/Project/b4night.github.io/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useScriptTag } from "/Users/b4night/Projects/b4night.github.io/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "/home/b4night/Project/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

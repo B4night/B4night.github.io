@@ -6,12 +6,66 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Sat, 10 Feb 2024 20:31:29 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Feb 2024 20:31:29 GMT</lastBuildDate>
+    <pubDate>Mon, 12 Feb 2024 15:55:21 GMT</pubDate>
+    <lastBuildDate>Mon, 12 Feb 2024 15:55:21 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Config new device</category>
     <category>随笔</category>
     <category>Useful Skills</category>
+    <item>
+      <title>What have I done with my new macbook</title>
+      <link>https://b4night.github.io/posts/What_have_I_done_with_my_new_macbook.html</link>
+      <guid>https://b4night.github.io/posts/What_have_I_done_with_my_new_macbook.html</guid>
+      <source url="https://b4night.github.io/rss.xml">What have I done with my new macbook</source>
+      <description>What have I done with my new macbook I bought a MacBook to try macOS. It&amp;apos;s a UNIX-like system, just like Linux. I mainly use Fedora38 recently and it&amp;apos;s time to try another branc...</description>
+      <category>Config new device</category>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>I bought a MacBook to try macOS. It's a UNIX-like system, just like Linux. I mainly use <code>Fedora38</code> recently and it's time to try another branch of Operating Systems.</p>
+<h1>App installed</h1>
+<p>I configured this device for the whole day and I downloaded below apps.</p>
+<ul>
+<li>Chrome: nothing else to say</li>
+<li>NetEaseMysic: Listen to music</li>
+<li>WeChat: For communication</li>
+<li>Clash Verge: People from China can understand. ToT</li>
+<li>Typora: I downloaded version <code>0.11.18</code> . It's the version free of charge.</li>
+<li>HotKey: I am familiar with using <code>ctrl+cmd+T</code> to invoke terminal. But it's complex to set keyboard shortcuts on Mac. So I use this to implement that.</li>
+<li>Visual Studio Code: To write code.</li>
+</ul>
+<p>Below are CLI tools I installed</p>
+<ul>
+<li>HomeBrew: In order to use <code>brew</code> to install software.</li>
+<li>Upgit: To upload my images to server.</li>
+<li>gh: Github CLI tool</li>
+<li>Oh my zsh: To beautify the terminal
+<ul>
+<li>Syntax Highlight plugin</li>
+<li>Auto suggestion plugin</li>
+</ul>
+</li>
+<li>node: Recently I write some typescript and javascript</li>
+<li>wget: Get resources</li>
+<li>git: Can't without it.</li>
+</ul>
+<h1>What have I configured?</h1>
+<h2>Clash Verge + Chrome</h2>
+<p>I configured this two to visit google. I have to complain that English forums' quality is far better than Chinese forums. If I give the specific keywords, the answers are really helpful.</p>
+<h2>Terminal</h2>
+<p>The macbook's system is <code>Ventura 13.6.4</code>, so the default shell environment is <code>zsh</code>. I installed <code>On-My-Zsh</code> to beautify terminal. Also, I downloaded 2 plugins, which are essential.</p>
+<ul>
+<li><code>zsh-syntax-highlighting</code>: Help a lot when I type some wrong commands.</li>
+<li><code>zsh-autosuggestions</code>: Remenber the commands I typed. Save numerous time.</li>
+</ul>
+<h2>Joplin Typora and Upgit</h2>
+<p>I use <code>Joplin</code> to store all my notes and I synchronize them with the help of <code>Tencent COS</code>.</p>
+<p>I downloaded <code>Typora 0.11.18</code> from GitHub and this version satisfy my needs. I choose uploading all the images inserted to server, and that needs the help of Upgit.</p>
+<p>Upgit is a lightweight software used to upload images. I configured it to upload images to my <code>Tencent COS Bucket</code>. I used that as a img-bed.</p>
+<h1>Ending...</h1>
+<p>That's pretty almost what I have done with this new laptop. MacOS impressed my a lot. I think I am converting from Linux-User to macOS-User XD.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>So excited about my first macbook</title>
       <link>https://b4night.github.io/posts/So_excited_about_my_first_macbook.html</link>

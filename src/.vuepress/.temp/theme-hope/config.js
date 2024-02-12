@@ -1,16 +1,16 @@
 import { defineClientConfig } from "vuepress/client";
-import { VPLink } from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-shared/lib/client/index.js";
+import { VPLink } from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-shared/lib/client/index.js";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineAutoCatalogGetter } from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { defineAutoCatalogGetter } from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "/home/b4night/Project/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "/home/b4night/Project/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "/home/b4night/Project/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "/home/b4night/Project/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "/Users/b4night/Projects/b4night.github.io/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineAutoCatalogGetter((meta) => {
   const title = meta.t;
