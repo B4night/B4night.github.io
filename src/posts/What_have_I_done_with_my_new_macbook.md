@@ -34,6 +34,17 @@ Below are CLI tools I installed
 *   node: Recently I write some typescript and javascript
 *   wget: Get resources
 *   git: Can't without it.
+*   gnu-sed: This pitfall shows when I uploaded this post. So I think I have to open a section for it.
+
+# gnu-sed
+
+**Caution**: Command `sed` is **different** on macOS and Linux.
+
+I write a shell script to automatically upload my posts. It works well on `Fedora38` and fails on macOS.
+
+The solution is simple: install `gnu-sed` and use `gsed` instead of using `sed`.
+
+So I modified my script to work on both platforms.
 
 # What have I configured?
 

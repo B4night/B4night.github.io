@@ -6,8 +6,8 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Mon, 12 Feb 2024 15:55:21 GMT</pubDate>
-    <lastBuildDate>Mon, 12 Feb 2024 15:55:21 GMT</lastBuildDate>
+    <pubDate>Mon, 12 Feb 2024 16:08:56 GMT</pubDate>
+    <lastBuildDate>Mon, 12 Feb 2024 16:08:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Config new device</category>
@@ -48,7 +48,13 @@
 <li>node: Recently I write some typescript and javascript</li>
 <li>wget: Get resources</li>
 <li>git: Can't without it.</li>
+<li>gnu-sed: This pitfall shows when I uploaded this post. So I think I have to open a section for it.</li>
 </ul>
+<h1>gnu-sed</h1>
+<p><strong>Caution</strong>: Command <code>sed</code> is <strong>different</strong> on macOS and Linux.</p>
+<p>I write a shell script to automatically upload my posts. It works well on <code>Fedora38</code> and fails on macOS.</p>
+<p>The solution is simple: install <code>gnu-sed</code> and use <code>gsed</code> instead of using <code>sed</code>.</p>
+<p>So I modified my script to work on both platforms.</p>
 <h1>What have I configured?</h1>
 <h2>Clash Verge + Chrome</h2>
 <p>I configured this two to visit google. I have to complain that English forums' quality is far better than Chinese forums. If I give the specific keywords, the answers are really helpful.</p>

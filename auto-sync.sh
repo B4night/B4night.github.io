@@ -2,7 +2,6 @@
 mkdir hexo
 
 token=$(cat .env.local | grep "JOPLIN_TOKEN" | awk -F '=' '{print $2}')
-echo $token
 
 if [[ "$OSTYPE" =~ "darwin" ]]; then
     SED="gsed"
