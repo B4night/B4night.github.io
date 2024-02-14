@@ -22,7 +22,7 @@ export default hopeTheme({
   navbar,
 
   // sidebar
-//   sidebar,
+  sidebar,
 
   footer: "Default footer",
 
