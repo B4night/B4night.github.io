@@ -6,13 +6,36 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Thu, 15 Feb 2024 08:40:06 GMT</pubDate>
-    <lastBuildDate>Thu, 15 Feb 2024 08:40:06 GMT</lastBuildDate>
+    <pubDate>Tue, 20 Feb 2024 03:03:55 GMT</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2024 03:03:55 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <category>Set github pages for repo.md</category>
     <category>Config new device</category>
+    <category>What have I done with my new macbook.md</category>
     <category>随笔</category>
+    <category>So excited about my first macbook.md</category>
+    <category>2024新春快乐 Happy Chinese New Year.md</category>
+    <category>使用clash verge和chrome extrnsion proxy omega来访问互联网.md</category>
+    <category>Disable keyboard driver on win11.md</category>
+    <category>Download `.torrent` file under Fedora.md</category>
+    <category>Fedora set display scale 150 percent(gnome).md</category>
+    <category>git rebase and git amend.md</category>
+    <category>Git switch branches with modified files.md</category>
+    <category>Joplin exits full screen in Linux.md</category>
+    <category>Open folder at terminal. Linux.md</category>
+    <category>Redirect terminal output to clipboard.md</category>
+    <category>Set Bluetooth off as default at rebooting in Fedora.md</category>
+    <category>Set default editor in Linux.md</category>
+    <category>Using ssh through SOCKS5 proxy.md</category>
+    <category>Vue Download failure about Ipv4 .md</category>
+    <category>Watch a process with pid under Linux.md</category>
+    <category>git push fatal! The remote end hung up unexpectedly.md</category>
+    <category>Linux Trick! Create desktop entries for apps.md</category>
+    <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
+    <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
+    <category>Useful script sharing! easy git push.md</category>
     <item>
       <title>Set github pages for repo</title>
       <link>https://b4night.github.io/posts/Set_github_pages_for_repo.html</link>
@@ -20,6 +43,7 @@
       <source url="https://b4night.github.io/rss.xml">Set github pages for repo</source>
       <description>Set github pages for repo Recently I uploaded my portfolio to github repo portfolio and deployed github pages for it. So today I am gonna talk about what to be done to deploy gi...</description>
       <category>Useful Skills</category>
+      <category>Set github pages for repo.md</category>
       <pubDate>Wed, 14 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Recently I uploaded my portfolio to github repo <a href="https://github.com/B4night/portfolio" target="_blank" rel="noopener noreferrer">portfolio</a> and deployed github pages for it. So today I am gonna talk about what to be done to deploy github pages for a github repo.</p>
@@ -73,6 +97,7 @@
       <source url="https://b4night.github.io/rss.xml">What have I done with my new macbook</source>
       <description>What have I done with my new macbook I bought a MacBook to try macOS. It&amp;apos;s a UNIX-like system, just like Linux. I mainly use Fedora38 recently and it&amp;apos;s time to try another branc...</description>
       <category>Config new device</category>
+      <category>What have I done with my new macbook.md</category>
       <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>I bought a MacBook to try macOS. It's a UNIX-like system, just like Linux. I mainly use <code>Fedora38</code> recently and it's time to try another branch of Operating Systems.</p>
@@ -132,6 +157,7 @@
       <source url="https://b4night.github.io/rss.xml">So excited about my first macbook</source>
       <description>So excited about my first macbook I started using windows operating system since I was 10 years old. After 12 years of using that(basically playing games on it) and 3 years of u...</description>
       <category>随笔</category>
+      <category>So excited about my first macbook.md</category>
       <pubDate>Sun, 11 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>I started using <code>windows</code> operating system since I was 10 years old. After 12 years of using that(basically playing games on it) and 3 years of using Linux(ubuntu and fedora),  I am about to have my first <code>Mac OS</code> device.</p>
@@ -146,6 +172,7 @@
       <source url="https://b4night.github.io/rss.xml">2024新春快乐 Happy Chinese New Year</source>
       <description>2024新春快乐 Happy Chinese New Year 今年的年味比往年浓了很多, 公园里, 小区里都是放烟花的人, 据同学说警察也在一边观看, 没有阻拦. 过去几年, 人们的心中都憋着气, 平日里的困苦彷徨, 都让它们随着烟花消失吧. 希望2024年, 生活会更好. </description>
       <category>随笔</category>
+      <category>2024新春快乐 Happy Chinese New Year.md</category>
       <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>今年的年味比往年浓了很多, 公园里, 小区里都是放烟花的人, 据同学说警察也在一边观看, 没有阻拦. 过去几年, 人们的心中都憋着气, 平日里的困苦彷徨, 都让它们随着烟花消失吧.</p>
@@ -159,6 +186,7 @@
       <source url="https://b4night.github.io/rss.xml">使用clash verge和chrome extrnsion proxy omega来访问互联网</source>
       <description>使用clash verge和chrome extrnsion proxy omega来访问互联网 这半年来, 我已经帮助好几个朋友配置clash verge和chrome, 以便快捷的访问互联网. 本篇博客记录一下所需步骤, 以后可以直接转发给有需要的朋友. 1. 下载clash verge clash verge的github链接是: https:/...</description>
       <category>Useful Skills</category>
+      <category>使用clash verge和chrome extrnsion proxy omega来访问互联网.md</category>
       <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>这半年来, 我已经帮助好几个朋友配置clash verge和chrome, 以便快捷的访问互联网. 本篇博客记录一下所需步骤, 以后可以直接转发给有需要的朋友.</p>
@@ -208,6 +236,7 @@
       <source url="https://b4night.github.io/rss.xml">Disable keyboard driver on win11</source>
       <description>Disable keyboard driver on win11 Today I ran into a hardware bug which was really annoying. My laptop keyboard inputed r constantly and I couldn&amp;apos;t fix it. I think it&amp;apos;s because t...</description>
       <category>Useful Skills</category>
+      <category>Disable keyboard driver on win11.md</category>
       <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I ran into a hardware bug which was really annoying. My laptop keyboard inputed <code>r</code> constantly and I couldn't fix it. I think it's because the motherboard is rotten. I could not open and remove the corrupted part. So the easiest way is disabling keyboard driver and use external keyboard.</p>
@@ -229,6 +258,7 @@
       <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
       <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
       <category>Useful Skills</category>
+      <category>Download `.torrent` file under Fedora.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
@@ -242,6 +272,7 @@
       <source url="https://b4night.github.io/rss.xml">Fedora set display scale 150 percent(gnome)</source>
       <description>Fedora set display scale 150 percent(gnome) The default display options are 100%, 200%, 300%. It’s awkward because some people might want to customize the display scale. There’s...</description>
       <category>Useful Skills</category>
+      <category>Fedora set display scale 150 percent(gnome).md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The default display options are <code>100%, 200%, 300%</code>. It’s awkward because some people might want to customize the display scale.</p>
@@ -259,295 +290,13 @@
       <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707111002.png" type="image/png"/>
     </item>
     <item>
-      <title>Git switch branches with modified files</title>
-      <link>https://b4night.github.io/posts/Git_switch_branches_with_modified_files.html</link>
-      <guid>https://b4night.github.io/posts/Git_switch_branches_with_modified_files.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Git switch branches with modified files</source>
-      <description>Git switch branches with modified files I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use git add to track m...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use <code>git add</code> to track modified too early and I have to switch another branch.</p>
-<p>So the error comes out: another branch would have the same modified files.</p>
-<p>E.g.: Currently I am at branch A, with modified files that are not added yet. I have to switch to branch B.</p>
-<p>Solution:</p>
-<ol>
-<li><code>git stash .</code></li>
-<li><code>git checkout branch-B</code></li>
-<li>Edit and push</li>
-<li><code>git checkout branch-A</code></li>
-<li><code>git stash apply</code></li>
-</ol>
-<p>With the help of <code>git stash</code> and <code>git stash apply</code> , I can solve the problem above.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Joplin exits full screen in Linux</title>
-      <link>https://b4night.github.io/posts/Joplin_exits_full_screen_in_Linux.html</link>
-      <guid>https://b4night.github.io/posts/Joplin_exits_full_screen_in_Linux.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Joplin exits full screen in Linux</source>
-      <description>Joplin exits full screen in Linux Today I maximized joplin when I was using it. But when I wanted to change the options, I used f11 to exit full screen. However, f11 is bonded t...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Today I maximized joplin when I was using it. But when I wanted to change the options, I used <code>f11</code> to exit full screen. However, <code>f11</code> is bonded to another feature, so that I can’t use it to exit.</p>
-<p>Here is the solution.</p>
-<ol>
-<li>Find the file <code>window-state-prod.json</code> Use the command <code>find / -name "window-state-prod.json"</code></li>
-<li>Edit the json file and set <code>isFullScreen</code> to <code>false</code></li>
-</ol>
-<p>If you want do disable entering full-screen size. You can cursor to <code>Tools&gt;Options&gt;Keyboard Shortcuts</code> and disable command which uses <code>F11</code></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Linux Trick: Create desktop entries for apps</title>
-      <link>https://b4night.github.io/posts/Linux_Trick__Create_desktop_entries_for_apps.html</link>
-      <guid>https://b4night.github.io/posts/Linux_Trick__Create_desktop_entries_for_apps.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Linux Trick: Create desktop entries for apps</source>
-      <description>Linux Trick: Create desktop entries for apps System: Fedora 39 workstation It’s always a problem for me that some apps I downloaded can not be recognized by control and extensio...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>System: Fedora 39 workstation</p>
-<p>It’s always a problem for me that some apps I downloaded can not be recognized by <code>control</code> and extension <code>search light</code> . So it’s necessary to create separate entries for those unrecognized apps.</p>
-<p>The procedures are as follows:</p>
-<ol>
-<li>Cursor to directory <code>~/.local/share/applicaions</code></li>
-<li>Create <code>&lt;app name&gt;.desktop</code></li>
-<li>Edit the content</li>
-<li>run command <code>desktop-file-validate &lt;app name&gt;.desktop</code></li>
-</ol>
-<p>The content is shown below:</p>
-<pre><code>[Desktop Entry]
-Version=1.0
-Encoding=UTF-8
-Type=Application
-Name=typora
-NoDisplay=true
-Exec=typora
-</code></pre>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Open folder at terminal. Linux</title>
-      <link>https://b4night.github.io/posts/Open_folder_at_terminal._Linux.html</link>
-      <guid>https://b4night.github.io/posts/Open_folder_at_terminal._Linux.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Open folder at terminal. Linux</source>
-      <description>Open folder at terminal. Linux The commend we need to use today is xdg-open . Below is a brief description: DESCRIPTION xdg-open opens a file or URL in the user’s preferred appl...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>The commend we need to use today is <code>xdg-open</code> .</p>
-<p>Below is a brief description:</p>
-<blockquote>
-<p><strong>DESCRIPTION</strong><br>
-xdg-open opens a file or URL in the user’s preferred application. If a URL is provided the URL will be opened in the user’s preferred web browser. If a file is provided the file will be opened in the preferred<br>
-application for files of that type. xdg-open supports file, ftp, http and https URLs.\ <br>xdg-open is for use inside a desktop session only. It is not recommended to use xdg-open as root.</p>
-</blockquote>
-<p>This command is used to open files or URLs in default ways. So that we can use it to open folder at the terminal.</p>
-<p>e.g.: <code>xdg-open .</code> , that'll open the current working directory in folder view.</p>
-<p>What’s more, we can set alias for <code>xdg-open</code> because it’s too long and hard to type.</p>
-<p>e.g.: <code>alias fld=xdg-open</code></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Program executed by Linux Terminal has the same proxy with the terminal?</title>
-      <link>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal_.html</link>
-      <guid>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal_.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Program executed by Linux Terminal has the same proxy with the terminal?</source>
-      <description>Program executed by Linux Terminal has the same proxy with the terminal? Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I set the global proxy of terminal.</p>
-<p>I executed a program and it needs to upload image to image bed, which is an server in China. The procedure is: the program executes uploading commands via terminal, while the terminal has proxy settings. So it’s really awkward that the uploading failed.</p>
-<p>I spent sevel hours for debugging and write this blog for people whom have ran into the same pitfall.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Redirect terminal output to clipboard.</title>
-      <link>https://b4night.github.io/posts/Redirect_terminal_output_to_clipboard..html</link>
-      <guid>https://b4night.github.io/posts/Redirect_terminal_output_to_clipboard..html</guid>
-      <source url="https://b4night.github.io/rss.xml">Redirect terminal output to clipboard.</source>
-      <description>Redirect terminal output to clipboard. This post is about using xclip command to redirect the output of a command to clipboard. install xclip use command cat output | xclip -sel...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>This post is about using <code>xclip</code> command to redirect the output of a command to clipboard.</p>
-<ol>
-<li>install <code>xclip</code></li>
-<li>use command <code>cat output | xclip -selection clipboard</code> to redirect the flow</li>
-<li>(Optional) Set an alias.<br>
-e.g. <code>alias clip=”xclip -selection clipboard”</code></li>
-<li>Remember that the alias needs to be added to <code>~/.bashrc</code> to take effect permanently.</li>
-</ol>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Set Bluetooth off as default at rebooting in Fedora</title>
-      <link>https://b4night.github.io/posts/Set_Bluetooth_off_as_default_at_rebooting_in_Fedora.html</link>
-      <guid>https://b4night.github.io/posts/Set_Bluetooth_off_as_default_at_rebooting_in_Fedora.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Set Bluetooth off as default at rebooting in Fedora</source>
-      <description>Set Bluetooth off as default at rebooting in Fedora We need to edit the file /etc/bluetooth/main.conf Find the line AutoEnable=true , change it to AutoEnable=false and voila, Bl...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>We need to edit the file <code>/etc/bluetooth/main.conf</code></p>
-<p>Find the line <code>AutoEnable=true</code> , change it to <code>AutoEnable=false</code> and voila, Bluetooth is off as default when rebooting.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Set default editor in Linux</title>
-      <link>https://b4night.github.io/posts/Set_default_editor_in_Linux.html</link>
-      <guid>https://b4night.github.io/posts/Set_default_editor_in_Linux.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Set default editor in Linux</source>
-      <description>Set default editor in Linux This need to edit the config file of the shell you are using. For example, I am using zsh right now so that I have to change ~/.zshrc . All I have to...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>This need to edit the config file of the shell you are using.</p>
-<p>For example, I am using zsh right now so that I have to change <code>~/.zshrc</code> .</p>
-<p>All I have to do is add a command at the end of the config file and then source it.</p>
-<pre><code>export EDITOR="/usr/bin/vim"
-source ~/.zshrc
-</code></pre>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Typora+upgit+tcyun: upload img to imgbed</title>
-      <link>https://b4night.github.io/posts/Typora_upgit_tcyun__upload_img_to_imgbed.html</link>
-      <guid>https://b4night.github.io/posts/Typora_upgit_tcyun__upload_img_to_imgbed.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Typora+upgit+tcyun: upload img to imgbed</source>
-      <description>Typora+upgit+tcyun: upload img to imgbed The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations. Set typora o...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations.</p>
-<ol>
-<li>Set typora options</li>
-</ol>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" alt="image-20240205132414965" tabindex="0" loading="lazy"><figcaption>image-20240205132414965</figcaption></figure>
-<ol start="2">
-<li>download upgit</li>
-</ol>
-<p>Download link: <a href="https://github.com/pluveto/upgit/releases" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/releases</a></p>
-<ol start="3">
-<li>edit upgit config</li>
-</ol>
-<p>Edit <code>~/.upgit.config.toml</code></p>
-<p>config template: <a href="https://github.com/pluveto/upgit/blob/main/config.sample.toml" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/blob/main/config.sample.toml</a></p>
-<p>My config is below:</p>
-<pre><code># UPGIT Config
-
-default_uploader = "qcloudcos"
-
-rename = "{year}/{month}/upgit_{year}{month}{day}_{unix_ts}{ext}"
-
-# Qcloudcos Uploader
-[uploaders.qcloudcos]
-host = "xxx.cos.ap-nanjing.myqcloud.com"
-secret_id = "xxx"
-secret_key = "xxx"
-</code></pre>
-<p>4.  Enter upgit path in typora and test</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110679.png" alt="image-20240205132439704" tabindex="0" loading="lazy"><figcaption>image-20240205132439704</figcaption></figure>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110689.png" alt="image-20240205132449714" tabindex="0" loading="lazy"><figcaption>image-20240205132449714</figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Useful script sharing: easy git push</title>
-      <link>https://b4night.github.io/posts/Useful_script_sharing__easy_git_push.html</link>
-      <guid>https://b4night.github.io/posts/Useful_script_sharing__easy_git_push.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Useful script sharing: easy git push</source>
-      <description>Useful script sharing: easy git push When dealing with github repositories, it’s often the case that we should use git add .; git commit -s -m &amp;quot;&amp;quot;; git push to push our changes. ...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>When dealing with github repositories, it’s often the case that we should use <code>git add .; git commit -s -m ""; git push</code> to push our changes.</p>
-<p>So that I am gonna share a simple shell script that could do some simple git operations.</p>
-<pre><code>acp() {
-    if [ ! $# -eq 1 ]; then
-        echo "Invalid number of arguments. Usage: acp \"commit message\""
-        return 1
-    fi
-    git add .
-    git commit -s -m "$1"
-    git push
-}
-</code></pre>
-<p>Just add it to <code>~/.bashrc</code> and source it.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Using ssh through SOCKS5 proxy.</title>
-      <link>https://b4night.github.io/posts/Using_ssh_through_SOCKS5_proxy..html</link>
-      <guid>https://b4night.github.io/posts/Using_ssh_through_SOCKS5_proxy..html</guid>
-      <source url="https://b4night.github.io/rss.xml">Using ssh through SOCKS5 proxy.</source>
-      <description>Using ssh through SOCKS5 proxy. Below are operations on Fedora39. Download netcat . In Ubuntu-like system, nc is needed. Edit ~/.ssh/config Add lines like: In essence, this conf...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Below are operations on Fedora39.</p>
-<ol>
-<li>Download <code>netcat</code> . In Ubuntu-like system, <code>nc</code> is needed.</li>
-<li>Edit <code>~/.ssh/config</code></li>
-<li>Add lines like:</li>
-</ol>
-<p>&lt;!</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Vue Download failure about Ipv4</title>
-      <link>https://b4night.github.io/posts/Vue_Download_failure_about_Ipv4.html</link>
-      <guid>https://b4night.github.io/posts/Vue_Download_failure_about_Ipv4.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Vue Download failure about Ipv4</source>
-      <description>Vue Download failure about Ipv4 Today I ran into fail when downloading vue using command npm install -g @vue/cli , after changing several mirror registry, the fail was still the...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Today I ran into fail when downloading vue using command <code>npm install -g @vue/cli</code> , after changing several mirror registry, the fail was still there.</p>
-<p>So I found out that some mirror websites can only be accessed by ipv4, so that we need to choose ipv4 first when accessing these registries.</p>
-<p>using command like below:</p>
-<p><code>node --dns-result-order=ipv4first /usr/bin/npm install -g @vue/cli</code> to download.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Watch a process with pid under Linux.</title>
-      <link>https://b4night.github.io/posts/Watch_a_process_with_pid_under_Linux..html</link>
-      <guid>https://b4night.github.io/posts/Watch_a_process_with_pid_under_Linux..html</guid>
-      <source url="https://b4night.github.io/rss.xml">Watch a process with pid under Linux.</source>
-      <description>Watch a process with pid under Linux. We need pidstat command to monitor processes. e.g.: pidstat -p [pid] 1 , this can print the status each second. </description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>We need <code>pidstat</code> command to monitor processes.</p>
-<p>e.g.: <code>pidstat -p [pid] 1</code> , this can print the status each second.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>git push fatal: The remote end hung up unexpectedly</title>
-      <link>https://b4night.github.io/posts/git_push_fatal__The_remote_end_hung_up_unexpectedly.html</link>
-      <guid>https://b4night.github.io/posts/git_push_fatal__The_remote_end_hung_up_unexpectedly.html</guid>
-      <source url="https://b4night.github.io/rss.xml">git push fatal: The remote end hung up unexpectedly</source>
-      <description>git push fatal: The remote end hung up unexpectedly stackoverflow link: https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly This usually h...</description>
-      <category>Useful Skills</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>stackoverflow link: <a href="https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly</a></p>
-<p>This usually happens when the files we push exceeds buffer size. So we can manually change postBuffer size.</p>
-<pre><code>git config http.postBuffer 524288000
-git config ssh.postBuffer 524288000
-</code></pre>
-]]></content:encoded>
-    </item>
-    <item>
       <title>git rebase and git amend</title>
       <link>https://b4night.github.io/posts/git_rebase_and_git_amend.html</link>
       <guid>https://b4night.github.io/posts/git_rebase_and_git_amend.html</guid>
       <source url="https://b4night.github.io/rss.xml">git rebase and git amend</source>
       <description>git rebase and git amend The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations. Set typora options 2. downlo...</description>
       <category>Useful Skills</category>
+      <category>git rebase and git amend.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations.</p>
@@ -678,6 +427,303 @@ pick de904ffd3f commit_b
 <p>This command means the <code>rebase</code> procedure is done and we are switched from a temporary branch to the branch which we want to change.</p>
 <h1><code>git push --force</code></h1>
 <p>This will push commits to remote and then overwrite the original commits because of <code>--force</code>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Git switch branches with modified files</title>
+      <link>https://b4night.github.io/posts/Git_switch_branches_with_modified_files.html</link>
+      <guid>https://b4night.github.io/posts/Git_switch_branches_with_modified_files.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Git switch branches with modified files</source>
+      <description>Git switch branches with modified files I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use git add to track m...</description>
+      <category>Useful Skills</category>
+      <category>Git switch branches with modified files.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use <code>git add</code> to track modified too early and I have to switch another branch.</p>
+<p>So the error comes out: another branch would have the same modified files.</p>
+<p>E.g.: Currently I am at branch A, with modified files that are not added yet. I have to switch to branch B.</p>
+<p>Solution:</p>
+<ol>
+<li><code>git stash .</code></li>
+<li><code>git checkout branch-B</code></li>
+<li>Edit and push</li>
+<li><code>git checkout branch-A</code></li>
+<li><code>git stash apply</code></li>
+</ol>
+<p>With the help of <code>git stash</code> and <code>git stash apply</code> , I can solve the problem above.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Joplin exits full screen in Linux</title>
+      <link>https://b4night.github.io/posts/Joplin_exits_full_screen_in_Linux.html</link>
+      <guid>https://b4night.github.io/posts/Joplin_exits_full_screen_in_Linux.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Joplin exits full screen in Linux</source>
+      <description>Joplin exits full screen in Linux Today I maximized joplin when I was using it. But when I wanted to change the options, I used f11 to exit full screen. However, f11 is bonded t...</description>
+      <category>Useful Skills</category>
+      <category>Joplin exits full screen in Linux.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Today I maximized joplin when I was using it. But when I wanted to change the options, I used <code>f11</code> to exit full screen. However, <code>f11</code> is bonded to another feature, so that I can’t use it to exit.</p>
+<p>Here is the solution.</p>
+<ol>
+<li>Find the file <code>window-state-prod.json</code> Use the command <code>find / -name "window-state-prod.json"</code></li>
+<li>Edit the json file and set <code>isFullScreen</code> to <code>false</code></li>
+</ol>
+<p>If you want do disable entering full-screen size. You can cursor to <code>Tools&gt;Options&gt;Keyboard Shortcuts</code> and disable command which uses <code>F11</code></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Open folder at terminal. Linux</title>
+      <link>https://b4night.github.io/posts/Open_folder_at_terminal._Linux.html</link>
+      <guid>https://b4night.github.io/posts/Open_folder_at_terminal._Linux.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Open folder at terminal. Linux</source>
+      <description>Open folder at terminal. Linux The commend we need to use today is xdg-open . Below is a brief description: DESCRIPTION xdg-open opens a file or URL in the user’s preferred appl...</description>
+      <category>Useful Skills</category>
+      <category>Open folder at terminal. Linux.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>The commend we need to use today is <code>xdg-open</code> .</p>
+<p>Below is a brief description:</p>
+<blockquote>
+<p><strong>DESCRIPTION</strong><br>
+xdg-open opens a file or URL in the user’s preferred application. If a URL is provided the URL will be opened in the user’s preferred web browser. If a file is provided the file will be opened in the preferred<br>
+application for files of that type. xdg-open supports file, ftp, http and https URLs.\ <br>xdg-open is for use inside a desktop session only. It is not recommended to use xdg-open as root.</p>
+</blockquote>
+<p>This command is used to open files or URLs in default ways. So that we can use it to open folder at the terminal.</p>
+<p>e.g.: <code>xdg-open .</code> , that'll open the current working directory in folder view.</p>
+<p>What’s more, we can set alias for <code>xdg-open</code> because it’s too long and hard to type.</p>
+<p>e.g.: <code>alias fld=xdg-open</code></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Redirect terminal output to clipboard.</title>
+      <link>https://b4night.github.io/posts/Redirect_terminal_output_to_clipboard..html</link>
+      <guid>https://b4night.github.io/posts/Redirect_terminal_output_to_clipboard..html</guid>
+      <source url="https://b4night.github.io/rss.xml">Redirect terminal output to clipboard.</source>
+      <description>Redirect terminal output to clipboard. This post is about using xclip command to redirect the output of a command to clipboard. install xclip use command cat output | xclip -sel...</description>
+      <category>Useful Skills</category>
+      <category>Redirect terminal output to clipboard.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>This post is about using <code>xclip</code> command to redirect the output of a command to clipboard.</p>
+<ol>
+<li>install <code>xclip</code></li>
+<li>use command <code>cat output | xclip -selection clipboard</code> to redirect the flow</li>
+<li>(Optional) Set an alias.<br>
+e.g. <code>alias clip=”xclip -selection clipboard”</code></li>
+<li>Remember that the alias needs to be added to <code>~/.bashrc</code> to take effect permanently.</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Set Bluetooth off as default at rebooting in Fedora</title>
+      <link>https://b4night.github.io/posts/Set_Bluetooth_off_as_default_at_rebooting_in_Fedora.html</link>
+      <guid>https://b4night.github.io/posts/Set_Bluetooth_off_as_default_at_rebooting_in_Fedora.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Set Bluetooth off as default at rebooting in Fedora</source>
+      <description>Set Bluetooth off as default at rebooting in Fedora We need to edit the file /etc/bluetooth/main.conf Find the line AutoEnable=true , change it to AutoEnable=false and voila, Bl...</description>
+      <category>Useful Skills</category>
+      <category>Set Bluetooth off as default at rebooting in Fedora.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>We need to edit the file <code>/etc/bluetooth/main.conf</code></p>
+<p>Find the line <code>AutoEnable=true</code> , change it to <code>AutoEnable=false</code> and voila, Bluetooth is off as default when rebooting.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Set default editor in Linux</title>
+      <link>https://b4night.github.io/posts/Set_default_editor_in_Linux.html</link>
+      <guid>https://b4night.github.io/posts/Set_default_editor_in_Linux.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Set default editor in Linux</source>
+      <description>Set default editor in Linux This need to edit the config file of the shell you are using. For example, I am using zsh right now so that I have to change ~/.zshrc . All I have to...</description>
+      <category>Useful Skills</category>
+      <category>Set default editor in Linux.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>This need to edit the config file of the shell you are using.</p>
+<p>For example, I am using zsh right now so that I have to change <code>~/.zshrc</code> .</p>
+<p>All I have to do is add a command at the end of the config file and then source it.</p>
+<pre><code>export EDITOR="/usr/bin/vim"
+source ~/.zshrc
+</code></pre>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Using ssh through SOCKS5 proxy.</title>
+      <link>https://b4night.github.io/posts/Using_ssh_through_SOCKS5_proxy..html</link>
+      <guid>https://b4night.github.io/posts/Using_ssh_through_SOCKS5_proxy..html</guid>
+      <source url="https://b4night.github.io/rss.xml">Using ssh through SOCKS5 proxy.</source>
+      <description>Using ssh through SOCKS5 proxy. Below are operations on Fedora39. Download netcat . In Ubuntu-like system, nc is needed. Edit ~/.ssh/config Add lines like: In essence, this conf...</description>
+      <category>Useful Skills</category>
+      <category>Using ssh through SOCKS5 proxy.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Below are operations on Fedora39.</p>
+<ol>
+<li>Download <code>netcat</code> . In Ubuntu-like system, <code>nc</code> is needed.</li>
+<li>Edit <code>~/.ssh/config</code></li>
+<li>Add lines like:</li>
+</ol>
+<p>&lt;!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Vue Download failure about Ipv4</title>
+      <link>https://b4night.github.io/posts/Vue_Download_failure_about_Ipv4.html</link>
+      <guid>https://b4night.github.io/posts/Vue_Download_failure_about_Ipv4.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Vue Download failure about Ipv4</source>
+      <description>Vue Download failure about Ipv4 Today I ran into fail when downloading vue using command npm install -g @vue/cli , after changing several mirror registry, the fail was still the...</description>
+      <category>Useful Skills</category>
+      <category>Vue Download failure about Ipv4 .md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Today I ran into fail when downloading vue using command <code>npm install -g @vue/cli</code> , after changing several mirror registry, the fail was still there.</p>
+<p>So I found out that some mirror websites can only be accessed by ipv4, so that we need to choose ipv4 first when accessing these registries.</p>
+<p>using command like below:</p>
+<p><code>node --dns-result-order=ipv4first /usr/bin/npm install -g @vue/cli</code> to download.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Watch a process with pid under Linux.</title>
+      <link>https://b4night.github.io/posts/Watch_a_process_with_pid_under_Linux..html</link>
+      <guid>https://b4night.github.io/posts/Watch_a_process_with_pid_under_Linux..html</guid>
+      <source url="https://b4night.github.io/rss.xml">Watch a process with pid under Linux.</source>
+      <description>Watch a process with pid under Linux. We need pidstat command to monitor processes. e.g.: pidstat -p [pid] 1 , this can print the status each second. </description>
+      <category>Useful Skills</category>
+      <category>Watch a process with pid under Linux.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>We need <code>pidstat</code> command to monitor processes.</p>
+<p>e.g.: <code>pidstat -p [pid] 1</code> , this can print the status each second.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>git push fatal: The remote end hung up unexpectedly</title>
+      <link>https://b4night.github.io/posts/git_push_fatal_The_remote_end_hung_up_unexpectedly.html</link>
+      <guid>https://b4night.github.io/posts/git_push_fatal_The_remote_end_hung_up_unexpectedly.html</guid>
+      <source url="https://b4night.github.io/rss.xml">git push fatal: The remote end hung up unexpectedly</source>
+      <description>git push fatal: The remote end hung up unexpectedly stackoverflow link: https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly This usually h...</description>
+      <category>Useful Skills</category>
+      <category>git push fatal! The remote end hung up unexpectedly.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>stackoverflow link: <a href="https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly</a></p>
+<p>This usually happens when the files we push exceeds buffer size. So we can manually change postBuffer size.</p>
+<pre><code>git config http.postBuffer 524288000
+git config ssh.postBuffer 524288000
+</code></pre>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux Trick: Create desktop entries for apps</title>
+      <link>https://b4night.github.io/posts/Linux_Trick_Create_desktop_entries_for_apps.html</link>
+      <guid>https://b4night.github.io/posts/Linux_Trick_Create_desktop_entries_for_apps.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Linux Trick: Create desktop entries for apps</source>
+      <description>Linux Trick: Create desktop entries for apps System: Fedora 39 workstation It’s always a problem for me that some apps I downloaded can not be recognized by control and extensio...</description>
+      <category>Useful Skills</category>
+      <category>Linux Trick! Create desktop entries for apps.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>System: Fedora 39 workstation</p>
+<p>It’s always a problem for me that some apps I downloaded can not be recognized by <code>control</code> and extension <code>search light</code> . So it’s necessary to create separate entries for those unrecognized apps.</p>
+<p>The procedures are as follows:</p>
+<ol>
+<li>Cursor to directory <code>~/.local/share/applicaions</code></li>
+<li>Create <code>&lt;app name&gt;.desktop</code></li>
+<li>Edit the content</li>
+<li>run command <code>desktop-file-validate &lt;app name&gt;.desktop</code></li>
+</ol>
+<p>The content is shown below:</p>
+<pre><code>[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=typora
+NoDisplay=true
+Exec=typora
+</code></pre>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Program executed by Linux Terminal has the same proxy with the terminal?</title>
+      <link>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal.html</link>
+      <guid>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Program executed by Linux Terminal has the same proxy with the terminal?</source>
+      <description>Program executed by Linux Terminal has the same proxy with the terminal? Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I...</description>
+      <category>Useful Skills</category>
+      <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I set the global proxy of terminal.</p>
+<p>I executed a program and it needs to upload image to image bed, which is an server in China. The procedure is: the program executes uploading commands via terminal, while the terminal has proxy settings. So it’s really awkward that the uploading failed.</p>
+<p>I spent sevel hours for debugging and write this blog for people whom have ran into the same pitfall.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Typora+upgit+tcyun: upload img to imgbed</title>
+      <link>https://b4night.github.io/posts/Typora_upgit_tcyun_upload_img_to_imgbed.html</link>
+      <guid>https://b4night.github.io/posts/Typora_upgit_tcyun_upload_img_to_imgbed.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Typora+upgit+tcyun: upload img to imgbed</source>
+      <description>Typora+upgit+tcyun: upload img to imgbed The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations. Set typora o...</description>
+      <category>Useful Skills</category>
+      <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations.</p>
+<ol>
+<li>Set typora options</li>
+</ol>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" alt="image-20240205132414965" tabindex="0" loading="lazy"><figcaption>image-20240205132414965</figcaption></figure>
+<ol start="2">
+<li>download upgit</li>
+</ol>
+<p>Download link: <a href="https://github.com/pluveto/upgit/releases" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/releases</a></p>
+<ol start="3">
+<li>edit upgit config</li>
+</ol>
+<p>Edit <code>~/.upgit.config.toml</code></p>
+<p>config template: <a href="https://github.com/pluveto/upgit/blob/main/config.sample.toml" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/blob/main/config.sample.toml</a></p>
+<p>My config is below:</p>
+<pre><code># UPGIT Config
+
+default_uploader = "qcloudcos"
+
+rename = "{year}/{month}/upgit_{year}{month}{day}_{unix_ts}{ext}"
+
+# Qcloudcos Uploader
+[uploaders.qcloudcos]
+host = "xxx.cos.ap-nanjing.myqcloud.com"
+secret_id = "xxx"
+secret_key = "xxx"
+</code></pre>
+<p>4.  Enter upgit path in typora and test</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110679.png" alt="image-20240205132439704" tabindex="0" loading="lazy"><figcaption>image-20240205132439704</figcaption></figure>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110689.png" alt="image-20240205132449714" tabindex="0" loading="lazy"><figcaption>image-20240205132449714</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Useful script sharing: easy git push</title>
+      <link>https://b4night.github.io/posts/Useful_script_sharing_easy_git_push.html</link>
+      <guid>https://b4night.github.io/posts/Useful_script_sharing_easy_git_push.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Useful script sharing: easy git push</source>
+      <description>Useful script sharing: easy git push When dealing with github repositories, it’s often the case that we should use git add .; git commit -s -m &amp;quot;&amp;quot;; git push to push our changes. ...</description>
+      <category>Useful Skills</category>
+      <category>Useful script sharing! easy git push.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>When dealing with github repositories, it’s often the case that we should use <code>git add .; git commit -s -m ""; git push</code> to push our changes.</p>
+<p>So that I am gonna share a simple shell script that could do some simple git operations.</p>
+<pre><code>acp() {
+    if [ ! $# -eq 1 ]; then
+        echo "Invalid number of arguments. Usage: acp \"commit message\""
+        return 1
+    fi
+    git add .
+    git commit -s -m "$1"
+    git push
+}
+</code></pre>
+<p>Just add it to <code>~/.bashrc</code> and source it.</p>
 ]]></content:encoded>
     </item>
     <item>

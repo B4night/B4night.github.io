@@ -4,7 +4,7 @@ tasks:
       name: '@mark-magic/plugin-joplin'
       config:
         baseUrl: 'http://localhost:41184'
-        token: 
+        token:
         tag: post # filter notes by tag
     output:
       name: '@mark-magic/plugin-hexo' # Output plugin to generate the files required by Hexo
