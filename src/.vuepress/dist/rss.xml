@@ -6,11 +6,17 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Tue, 20 Feb 2024 03:03:55 GMT</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2024 03:03:55 GMT</lastBuildDate>
+    <pubDate>Tue, 20 Feb 2024 04:44:47 GMT</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2024 04:44:47 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <category>git push fatal! The remote end hung up unexpectedly.md</category>
+    <category>Linux Trick! Create desktop entries for apps.md</category>
+    <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
+    <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
+    <category>Useful script sharing! easy git push.md</category>
+    <category>Create WSL2 with distro fedora.md</category>
     <category>Set github pages for repo.md</category>
     <category>Config new device</category>
     <category>What have I done with my new macbook.md</category>
@@ -31,11 +37,184 @@
     <category>Using ssh through SOCKS5 proxy.md</category>
     <category>Vue Download failure about Ipv4 .md</category>
     <category>Watch a process with pid under Linux.md</category>
-    <category>git push fatal! The remote end hung up unexpectedly.md</category>
-    <category>Linux Trick! Create desktop entries for apps.md</category>
-    <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
-    <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
-    <category>Useful script sharing! easy git push.md</category>
+    <item>
+      <title>git push fatal: The remote end hung up unexpectedly</title>
+      <link>https://b4night.github.io/posts/git_push_fatal_The_remote_end_hung_up_unexpectedly.html</link>
+      <guid>https://b4night.github.io/posts/git_push_fatal_The_remote_end_hung_up_unexpectedly.html</guid>
+      <source url="https://b4night.github.io/rss.xml">git push fatal: The remote end hung up unexpectedly</source>
+      <description>git push fatal: The remote end hung up unexpectedly stackoverflow link: https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly This usually h...</description>
+      <category>Useful Skills</category>
+      <category>git push fatal! The remote end hung up unexpectedly.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>stackoverflow link: <a href="https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly</a></p>
+<p>This usually happens when the files we push exceeds buffer size. So we can manually change postBuffer size.</p>
+<pre><code>git config http.postBuffer 524288000
+git config ssh.postBuffer 524288000
+</code></pre>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux Trick: Create desktop entries for apps</title>
+      <link>https://b4night.github.io/posts/Linux_Trick_Create_desktop_entries_for_apps.html</link>
+      <guid>https://b4night.github.io/posts/Linux_Trick_Create_desktop_entries_for_apps.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Linux Trick: Create desktop entries for apps</source>
+      <description>Linux Trick: Create desktop entries for apps System: Fedora 39 workstation It’s always a problem for me that some apps I downloaded can not be recognized by control and extensio...</description>
+      <category>Useful Skills</category>
+      <category>Linux Trick! Create desktop entries for apps.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>System: Fedora 39 workstation</p>
+<p>It’s always a problem for me that some apps I downloaded can not be recognized by <code>control</code> and extension <code>search light</code> . So it’s necessary to create separate entries for those unrecognized apps.</p>
+<p>The procedures are as follows:</p>
+<ol>
+<li>Cursor to directory <code>~/.local/share/applicaions</code></li>
+<li>Create <code>&lt;app name&gt;.desktop</code></li>
+<li>Edit the content</li>
+<li>run command <code>desktop-file-validate &lt;app name&gt;.desktop</code></li>
+</ol>
+<p>The content is shown below:</p>
+<pre><code>[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=typora
+NoDisplay=true
+Exec=typora
+</code></pre>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Program executed by Linux Terminal has the same proxy with the terminal?</title>
+      <link>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal.html</link>
+      <guid>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Program executed by Linux Terminal has the same proxy with the terminal?</source>
+      <description>Program executed by Linux Terminal has the same proxy with the terminal? Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I...</description>
+      <category>Useful Skills</category>
+      <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I set the global proxy of terminal.</p>
+<p>I executed a program and it needs to upload image to image bed, which is an server in China. The procedure is: the program executes uploading commands via terminal, while the terminal has proxy settings. So it’s really awkward that the uploading failed.</p>
+<p>I spent sevel hours for debugging and write this blog for people whom have ran into the same pitfall.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Typora+upgit+tcyun: upload img to imgbed</title>
+      <link>https://b4night.github.io/posts/Typora_upgit_tcyun_upload_img_to_imgbed.html</link>
+      <guid>https://b4night.github.io/posts/Typora_upgit_tcyun_upload_img_to_imgbed.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Typora+upgit+tcyun: upload img to imgbed</source>
+      <description>Typora+upgit+tcyun: upload img to imgbed The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations. Set typora o...</description>
+      <category>Useful Skills</category>
+      <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations.</p>
+<ol>
+<li>Set typora options</li>
+</ol>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" alt="image-20240205132414965" tabindex="0" loading="lazy"><figcaption>image-20240205132414965</figcaption></figure>
+<ol start="2">
+<li>download upgit</li>
+</ol>
+<p>Download link: <a href="https://github.com/pluveto/upgit/releases" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/releases</a></p>
+<ol start="3">
+<li>edit upgit config</li>
+</ol>
+<p>Edit <code>~/.upgit.config.toml</code></p>
+<p>config template: <a href="https://github.com/pluveto/upgit/blob/main/config.sample.toml" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/blob/main/config.sample.toml</a></p>
+<p>My config is below:</p>
+<pre><code># UPGIT Config
+
+default_uploader = "qcloudcos"
+
+rename = "{year}/{month}/upgit_{year}{month}{day}_{unix_ts}{ext}"
+
+# Qcloudcos Uploader
+[uploaders.qcloudcos]
+host = "xxx.cos.ap-nanjing.myqcloud.com"
+secret_id = "xxx"
+secret_key = "xxx"
+</code></pre>
+<p>4.  Enter upgit path in typora and test</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110679.png" alt="image-20240205132439704" tabindex="0" loading="lazy"><figcaption>image-20240205132439704</figcaption></figure>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110689.png" alt="image-20240205132449714" tabindex="0" loading="lazy"><figcaption>image-20240205132449714</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Useful script sharing: easy git push</title>
+      <link>https://b4night.github.io/posts/Useful_script_sharing_easy_git_push.html</link>
+      <guid>https://b4night.github.io/posts/Useful_script_sharing_easy_git_push.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Useful script sharing: easy git push</source>
+      <description>Useful script sharing: easy git push When dealing with github repositories, it’s often the case that we should use git add .; git commit -s -m &amp;quot;&amp;quot;; git push to push our changes. ...</description>
+      <category>Useful Skills</category>
+      <category>Useful script sharing! easy git push.md</category>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>When dealing with github repositories, it’s often the case that we should use <code>git add .; git commit -s -m ""; git push</code> to push our changes.</p>
+<p>So that I am gonna share a simple shell script that could do some simple git operations.</p>
+<pre><code>acp() {
+    if [ ! $# -eq 1 ]; then
+        echo "Invalid number of arguments. Usage: acp \"commit message\""
+        return 1
+    fi
+    git add .
+    git commit -s -m "$1"
+    git push
+}
+</code></pre>
+<p>Just add it to <code>~/.bashrc</code> and source it.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Create WSL2 with distro fedora</title>
+      <link>https://b4night.github.io/posts/Create_WSL2_with_distro_fedora.html</link>
+      <guid>https://b4night.github.io/posts/Create_WSL2_with_distro_fedora.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Create WSL2 with distro fedora</source>
+      <description>Create WSL2 with distro fedora Reference: https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows Enable wsl2 on windows Search Turn Windows Features on or off...</description>
+      <category>Useful Skills</category>
+      <category>Create WSL2 with distro fedora.md</category>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Reference: <a href="https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows" target="_blank" rel="noopener noreferrer">https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows</a></p>
+<h1>Enable wsl2 on windows</h1>
+<p>Search <code>Turn Windows Features on or off</code> and turn on <code>Windows Subsystem for Linux</code></p>
+<p>Then, use command <code>wsl --set-default-version 2</code> to set WSL version to 2</p>
+<h1>Download fedora tarball and get rootfs</h1>
+<p>You can find different kind of tarball here: <a href="https://kojipkgs.fedoraproject.org/packages/Fedora-Container-Base" target="_blank" rel="noopener noreferrer">https://kojipkgs.fedoraproject.org/packages/Fedora-Container-Base</a></p>
+<p>Download the right tar file and extract it. Then you can find a file <code>layer.tar</code>. This is the rootfs file we need.</p>
+<p>Then, rename the file to something like <code>fedora-39-rootfs.tar</code></p>
+<h1>Install Fedora</h1>
+<ol>
+<li>Create a directory to store this distro: Execute command <code>mkdir $HOME\wsl\fedora</code></li>
+<li>Execute command <code>wsl --import fedora $HOME\wsl\fedora path\to\fedora-39-rootfs.tar</code> to install Fedora</li>
+</ol>
+<p>You can use <code>wsl -l -v</code> to see all of the distros.</p>
+<h1>Some configuration</h1>
+<ol>
+<li>Upgrade all of the packages: <code>sudo</code> <code>dnf update</code></li>
+<li>Fedora is automatically logged in as fedora, we need to create a user</li>
+</ol>
+<div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token comment"># Download necessary packages</span>
+$ <span class="token function">sudo</span> dnf <span class="token function">install</span> <span class="token parameter variable">-y</span> util-linux <span class="token function">passwd</span> cracklib-dicts
+
+<span class="token comment"># add user</span>
+<span class="token function">useradd</span> <span class="token parameter variable">-G</span> wheel <span class="token operator">&lt;</span>username<span class="token operator">&gt;</span>
+
+<span class="token comment"># config password</span>
+<span class="token function">passwd</span> <span class="token operator">&lt;</span>username<span class="token operator">&gt;</span>
+</code></pre></div><p>Now you can use <code>wsl</code> <code>-d</code> <code>fedora</code> <code>-u</code> &lt;<code>username&gt;</code> to login as user. To log in automatically, you can execute this in the wsl
+<code>printf "\n[user]\ndefault = &lt;username&gt;\n" | sudo tee -a /etc/wsl.conf</code></p>
+<h1>Download  <code>man</code>  page</h1>
+<p>This distro doesn't have <code>man</code> command and we need to config it.</p>
+<p>Reference: <a href="https://stackoverflow.com/questions/64205680/cant-find-any-man-pages-in-fedora-docker-image" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/64205680/cant-find-any-man-pages-in-fedora-docker-image</a></p>
+<ol>
+<li>Check the last line of file <code>etc/dnf/dnf.conf</code></li>
+<li>If it's <code>tsflags=nodocs</code>, we can use <code>dnf install -y man-pages --setopt='tsflags='</code> to download man-pages.</li>
+</ol>
+]]></content:encoded>
+    </item>
     <item>
       <title>Set github pages for repo</title>
       <link>https://b4night.github.io/posts/Set_github_pages_for_repo.html</link>
@@ -594,136 +773,6 @@ source ~/.zshrc
       <content:encoded><![CDATA[
 <p>We need <code>pidstat</code> command to monitor processes.</p>
 <p>e.g.: <code>pidstat -p [pid] 1</code> , this can print the status each second.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>git push fatal: The remote end hung up unexpectedly</title>
-      <link>https://b4night.github.io/posts/git_push_fatal_The_remote_end_hung_up_unexpectedly.html</link>
-      <guid>https://b4night.github.io/posts/git_push_fatal_The_remote_end_hung_up_unexpectedly.html</guid>
-      <source url="https://b4night.github.io/rss.xml">git push fatal: The remote end hung up unexpectedly</source>
-      <description>git push fatal: The remote end hung up unexpectedly stackoverflow link: https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly This usually h...</description>
-      <category>Useful Skills</category>
-      <category>git push fatal! The remote end hung up unexpectedly.md</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>stackoverflow link: <a href="https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly</a></p>
-<p>This usually happens when the files we push exceeds buffer size. So we can manually change postBuffer size.</p>
-<pre><code>git config http.postBuffer 524288000
-git config ssh.postBuffer 524288000
-</code></pre>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Linux Trick: Create desktop entries for apps</title>
-      <link>https://b4night.github.io/posts/Linux_Trick_Create_desktop_entries_for_apps.html</link>
-      <guid>https://b4night.github.io/posts/Linux_Trick_Create_desktop_entries_for_apps.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Linux Trick: Create desktop entries for apps</source>
-      <description>Linux Trick: Create desktop entries for apps System: Fedora 39 workstation It’s always a problem for me that some apps I downloaded can not be recognized by control and extensio...</description>
-      <category>Useful Skills</category>
-      <category>Linux Trick! Create desktop entries for apps.md</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>System: Fedora 39 workstation</p>
-<p>It’s always a problem for me that some apps I downloaded can not be recognized by <code>control</code> and extension <code>search light</code> . So it’s necessary to create separate entries for those unrecognized apps.</p>
-<p>The procedures are as follows:</p>
-<ol>
-<li>Cursor to directory <code>~/.local/share/applicaions</code></li>
-<li>Create <code>&lt;app name&gt;.desktop</code></li>
-<li>Edit the content</li>
-<li>run command <code>desktop-file-validate &lt;app name&gt;.desktop</code></li>
-</ol>
-<p>The content is shown below:</p>
-<pre><code>[Desktop Entry]
-Version=1.0
-Encoding=UTF-8
-Type=Application
-Name=typora
-NoDisplay=true
-Exec=typora
-</code></pre>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Program executed by Linux Terminal has the same proxy with the terminal?</title>
-      <link>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal.html</link>
-      <guid>https://b4night.github.io/posts/Program_executed_by_Linux_Terminal_has_the_same_proxy_with_the_terminal.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Program executed by Linux Terminal has the same proxy with the terminal?</source>
-      <description>Program executed by Linux Terminal has the same proxy with the terminal? Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I...</description>
-      <category>Useful Skills</category>
-      <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Today I ran into an awkward situation. I am in China right now and I need proxy to access internet. So I set the global proxy of terminal.</p>
-<p>I executed a program and it needs to upload image to image bed, which is an server in China. The procedure is: the program executes uploading commands via terminal, while the terminal has proxy settings. So it’s really awkward that the uploading failed.</p>
-<p>I spent sevel hours for debugging and write this blog for people whom have ran into the same pitfall.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Typora+upgit+tcyun: upload img to imgbed</title>
-      <link>https://b4night.github.io/posts/Typora_upgit_tcyun_upload_img_to_imgbed.html</link>
-      <guid>https://b4night.github.io/posts/Typora_upgit_tcyun_upload_img_to_imgbed.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Typora+upgit+tcyun: upload img to imgbed</source>
-      <description>Typora+upgit+tcyun: upload img to imgbed The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations. Set typora o...</description>
-      <category>Useful Skills</category>
-      <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations.</p>
-<ol>
-<li>Set typora options</li>
-</ol>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" alt="image-20240205132414965" tabindex="0" loading="lazy"><figcaption>image-20240205132414965</figcaption></figure>
-<ol start="2">
-<li>download upgit</li>
-</ol>
-<p>Download link: <a href="https://github.com/pluveto/upgit/releases" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/releases</a></p>
-<ol start="3">
-<li>edit upgit config</li>
-</ol>
-<p>Edit <code>~/.upgit.config.toml</code></p>
-<p>config template: <a href="https://github.com/pluveto/upgit/blob/main/config.sample.toml" target="_blank" rel="noopener noreferrer">https://github.com/pluveto/upgit/blob/main/config.sample.toml</a></p>
-<p>My config is below:</p>
-<pre><code># UPGIT Config
-
-default_uploader = "qcloudcos"
-
-rename = "{year}/{month}/upgit_{year}{month}{day}_{unix_ts}{ext}"
-
-# Qcloudcos Uploader
-[uploaders.qcloudcos]
-host = "xxx.cos.ap-nanjing.myqcloud.com"
-secret_id = "xxx"
-secret_key = "xxx"
-</code></pre>
-<p>4.  Enter upgit path in typora and test</p>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110679.png" alt="image-20240205132439704" tabindex="0" loading="lazy"><figcaption>image-20240205132439704</figcaption></figure>
-<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110689.png" alt="image-20240205132449714" tabindex="0" loading="lazy"><figcaption>image-20240205132449714</figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/2024/02/upgit_20240205_1707110655.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Useful script sharing: easy git push</title>
-      <link>https://b4night.github.io/posts/Useful_script_sharing_easy_git_push.html</link>
-      <guid>https://b4night.github.io/posts/Useful_script_sharing_easy_git_push.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Useful script sharing: easy git push</source>
-      <description>Useful script sharing: easy git push When dealing with github repositories, it’s often the case that we should use git add .; git commit -s -m &amp;quot;&amp;quot;; git push to push our changes. ...</description>
-      <category>Useful Skills</category>
-      <category>Useful script sharing! easy git push.md</category>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>When dealing with github repositories, it’s often the case that we should use <code>git add .; git commit -s -m ""; git push</code> to push our changes.</p>
-<p>So that I am gonna share a simple shell script that could do some simple git operations.</p>
-<pre><code>acp() {
-    if [ ! $# -eq 1 ]; then
-        echo "Invalid number of arguments. Usage: acp \"commit message\""
-        return 1
-    fi
-    git add .
-    git commit -s -m "$1"
-    git push
-}
-</code></pre>
-<p>Just add it to <code>~/.bashrc</code> and source it.</p>
 ]]></content:encoded>
     </item>
     <item>
