@@ -6,17 +6,18 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Tue, 20 Feb 2024 04:44:47 GMT</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2024 04:44:47 GMT</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 12:02:02 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 12:02:02 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <category>A easy command to check IP.md</category>
+    <category>Create WSL2 with distro fedora.md</category>
     <category>git push fatal! The remote end hung up unexpectedly.md</category>
     <category>Linux Trick! Create desktop entries for apps.md</category>
     <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
     <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
     <category>Useful script sharing! easy git push.md</category>
-    <category>Create WSL2 with distro fedora.md</category>
     <category>Set github pages for repo.md</category>
     <category>Config new device</category>
     <category>What have I done with my new macbook.md</category>
@@ -37,6 +38,69 @@
     <category>Using ssh through SOCKS5 proxy.md</category>
     <category>Vue Download failure about Ipv4 .md</category>
     <category>Watch a process with pid under Linux.md</category>
+    <item>
+      <title>A easy command to check IP</title>
+      <link>https://b4night.github.io/posts/A_easy_command_to_check_IP.html</link>
+      <guid>https://b4night.github.io/posts/A_easy_command_to_check_IP.html</guid>
+      <source url="https://b4night.github.io/rss.xml">A easy command to check IP</source>
+      <description>A easy command to check IP When we execute ifconfig or ipconfig, it often shows the private IP. There is a easy way to know our public IP. curl myip.ipip.net This command return...</description>
+      <category>Useful Skills</category>
+      <category>A easy command to check IP.md</category>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>When we execute <code>ifconfig</code> or <code>ipconfig</code>, it often shows the private IP. There is a easy way to know our public IP.</p>
+<p><code>curl myip.ipip.net</code></p>
+<p>This command returns our IP, location and our NSP(Network Service Provider).</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Create WSL2 with distro fedora</title>
+      <link>https://b4night.github.io/posts/Create_WSL2_with_distro_fedora.html</link>
+      <guid>https://b4night.github.io/posts/Create_WSL2_with_distro_fedora.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Create WSL2 with distro fedora</source>
+      <description>Create WSL2 with distro fedora Reference: https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows Enable wsl2 on windows Search Turn Windows Features on or off...</description>
+      <category>Useful Skills</category>
+      <category>Create WSL2 with distro fedora.md</category>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Reference: <a href="https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows" target="_blank" rel="noopener noreferrer">https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows</a></p>
+<h1>Enable wsl2 on windows</h1>
+<p>Search <code>Turn Windows Features on or off</code> and turn on <code>Windows Subsystem for Linux</code></p>
+<p>Then, use command <code>wsl --set-default-version 2</code> to set WSL version to 2</p>
+<h1>Download fedora tarball and get rootfs</h1>
+<p>You can find different kind of tarball here: <a href="https://kojipkgs.fedoraproject.org/packages/Fedora-Container-Base" target="_blank" rel="noopener noreferrer">https://kojipkgs.fedoraproject.org/packages/Fedora-Container-Base</a></p>
+<p>Download the right tar file and extract it. Then you can find a file <code>layer.tar</code>. This is the rootfs file we need.</p>
+<p>Then, rename the file to something like <code>fedora-39-rootfs.tar</code></p>
+<h1>Install Fedora</h1>
+<ol>
+<li>Create a directory to store this distro: Execute command <code>mkdir $HOME\wsl\fedora</code></li>
+<li>Execute command <code>wsl --import fedora $HOME\wsl\fedora path\to\fedora-39-rootfs.tar</code> to install Fedora</li>
+</ol>
+<p>You can use <code>wsl -l -v</code> to see all of the distros.</p>
+<h1>Some configuration</h1>
+<ol>
+<li>Upgrade all of the packages: <code>sudo</code> <code>dnf update</code></li>
+<li>Fedora is automatically logged in as fedora, we need to create a user</li>
+</ol>
+<div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token comment"># Download necessary packages</span>
+$ <span class="token function">sudo</span> dnf <span class="token function">install</span> <span class="token parameter variable">-y</span> util-linux <span class="token function">passwd</span> cracklib-dicts
+
+<span class="token comment"># add user</span>
+<span class="token function">useradd</span> <span class="token parameter variable">-G</span> wheel <span class="token operator">&lt;</span>username<span class="token operator">&gt;</span>
+
+<span class="token comment"># config password</span>
+<span class="token function">passwd</span> <span class="token operator">&lt;</span>username<span class="token operator">&gt;</span>
+</code></pre></div><p>Now you can use <code>wsl</code> <code>-d</code> <code>fedora</code> <code>-u</code> &lt;<code>username&gt;</code> to login as user. To log in automatically, you can execute this in the wsl
+<code>printf "\n[user]\ndefault = &lt;username&gt;\n" | sudo tee -a /etc/wsl.conf</code></p>
+<h1>Download  <code>man</code>  page</h1>
+<p>This distro doesn't have <code>man</code> command and we need to config it.</p>
+<p>Reference: <a href="https://stackoverflow.com/questions/64205680/cant-find-any-man-pages-in-fedora-docker-image" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/64205680/cant-find-any-man-pages-in-fedora-docker-image</a></p>
+<ol>
+<li>Check the last line of file <code>etc/dnf/dnf.conf</code></li>
+<li>If it's <code>tsflags=nodocs</code>, we can use <code>dnf install -y man-pages --setopt='tsflags='</code> to download man-pages.</li>
+</ol>
+]]></content:encoded>
+    </item>
     <item>
       <title>git push fatal: The remote end hung up unexpectedly</title>
       <link>https://b4night.github.io/posts/git_push_fatal_The_remote_end_hung_up_unexpectedly.html</link>
@@ -165,54 +229,6 @@ secret_key = "xxx"
 }
 </code></pre>
 <p>Just add it to <code>~/.bashrc</code> and source it.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Create WSL2 with distro fedora</title>
-      <link>https://b4night.github.io/posts/Create_WSL2_with_distro_fedora.html</link>
-      <guid>https://b4night.github.io/posts/Create_WSL2_with_distro_fedora.html</guid>
-      <source url="https://b4night.github.io/rss.xml">Create WSL2 with distro fedora</source>
-      <description>Create WSL2 with distro fedora Reference: https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows Enable wsl2 on windows Search Turn Windows Features on or off...</description>
-      <category>Useful Skills</category>
-      <category>Create WSL2 with distro fedora.md</category>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Reference: <a href="https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows" target="_blank" rel="noopener noreferrer">https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows</a></p>
-<h1>Enable wsl2 on windows</h1>
-<p>Search <code>Turn Windows Features on or off</code> and turn on <code>Windows Subsystem for Linux</code></p>
-<p>Then, use command <code>wsl --set-default-version 2</code> to set WSL version to 2</p>
-<h1>Download fedora tarball and get rootfs</h1>
-<p>You can find different kind of tarball here: <a href="https://kojipkgs.fedoraproject.org/packages/Fedora-Container-Base" target="_blank" rel="noopener noreferrer">https://kojipkgs.fedoraproject.org/packages/Fedora-Container-Base</a></p>
-<p>Download the right tar file and extract it. Then you can find a file <code>layer.tar</code>. This is the rootfs file we need.</p>
-<p>Then, rename the file to something like <code>fedora-39-rootfs.tar</code></p>
-<h1>Install Fedora</h1>
-<ol>
-<li>Create a directory to store this distro: Execute command <code>mkdir $HOME\wsl\fedora</code></li>
-<li>Execute command <code>wsl --import fedora $HOME\wsl\fedora path\to\fedora-39-rootfs.tar</code> to install Fedora</li>
-</ol>
-<p>You can use <code>wsl -l -v</code> to see all of the distros.</p>
-<h1>Some configuration</h1>
-<ol>
-<li>Upgrade all of the packages: <code>sudo</code> <code>dnf update</code></li>
-<li>Fedora is automatically logged in as fedora, we need to create a user</li>
-</ol>
-<div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code><span class="token comment"># Download necessary packages</span>
-$ <span class="token function">sudo</span> dnf <span class="token function">install</span> <span class="token parameter variable">-y</span> util-linux <span class="token function">passwd</span> cracklib-dicts
-
-<span class="token comment"># add user</span>
-<span class="token function">useradd</span> <span class="token parameter variable">-G</span> wheel <span class="token operator">&lt;</span>username<span class="token operator">&gt;</span>
-
-<span class="token comment"># config password</span>
-<span class="token function">passwd</span> <span class="token operator">&lt;</span>username<span class="token operator">&gt;</span>
-</code></pre></div><p>Now you can use <code>wsl</code> <code>-d</code> <code>fedora</code> <code>-u</code> &lt;<code>username&gt;</code> to login as user. To log in automatically, you can execute this in the wsl
-<code>printf "\n[user]\ndefault = &lt;username&gt;\n" | sudo tee -a /etc/wsl.conf</code></p>
-<h1>Download  <code>man</code>  page</h1>
-<p>This distro doesn't have <code>man</code> command and we need to config it.</p>
-<p>Reference: <a href="https://stackoverflow.com/questions/64205680/cant-find-any-man-pages-in-fedora-docker-image" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/questions/64205680/cant-find-any-man-pages-in-fedora-docker-image</a></p>
-<ol>
-<li>Check the last line of file <code>etc/dnf/dnf.conf</code></li>
-<li>If it's <code>tsflags=nodocs</code>, we can use <code>dnf install -y man-pages --setopt='tsflags='</code> to download man-pages.</li>
-</ol>
 ]]></content:encoded>
     </item>
     <item>
