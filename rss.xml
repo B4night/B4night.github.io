@@ -6,11 +6,12 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Tue, 20 Feb 2024 04:43:05 GMT</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2024 04:43:05 GMT</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 12:00:15 GMT</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 12:00:15 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <category>A easy command to check IP.md</category>
     <category>Create WSL2 with distro fedora.md</category>
     <category>Linux Trick! Create desktop entries for apps.md</category>
     <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
@@ -37,6 +38,21 @@
     <category>Vue Download failure about Ipv4 .md</category>
     <category>Watch a process with pid under Linux.md</category>
     <category>git rebase and git amend.md</category>
+    <item>
+      <title>A easy command to check IP</title>
+      <link>https://b4night.github.io/posts/A_easy_command_to_check_IP.html</link>
+      <guid>https://b4night.github.io/posts/A_easy_command_to_check_IP.html</guid>
+      <source url="https://b4night.github.io/rss.xml">A easy command to check IP</source>
+      <description>A easy command to check IP When we execute ifconfig or ipconfig, it often shows the private IP. There is a easy way to know our public IP. curl myip.ipip.net This command return...</description>
+      <category>Useful Skills</category>
+      <category>A easy command to check IP.md</category>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>When we execute <code>ifconfig</code> or <code>ipconfig</code>, it often shows the private IP. There is a easy way to know our public IP.</p>
+<p><code>curl myip.ipip.net</code></p>
+<p>This command returns our IP, location and our NSP(Network Service Provider).</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Create WSL2 with distro fedora</title>
       <link>https://b4night.github.io/posts/Create_WSL2_with_distro_fedora.html</link>
