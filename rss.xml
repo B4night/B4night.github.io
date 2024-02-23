@@ -6,11 +6,12 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Wed, 21 Feb 2024 12:05:22 GMT</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2024 12:05:22 GMT</lastBuildDate>
+    <pubDate>Fri, 23 Feb 2024 07:22:22 GMT</pubDate>
+    <lastBuildDate>Fri, 23 Feb 2024 07:22:22 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <category>Fedora docker image error! no man pages.md</category>
     <category>A easy command to check IP.md</category>
     <category>Create WSL2 with distro fedora.md</category>
     <category>Linux Trick! Create desktop entries for apps.md</category>
@@ -38,6 +39,27 @@
     <category>Vue Download failure about Ipv4 .md</category>
     <category>Watch a process with pid under Linux.md</category>
     <category>git rebase and git amend.md</category>
+    <item>
+      <title>Fedora docker image error: no man pages</title>
+      <link>https://b4night.github.io/posts/Fedora_docker_image_error_no_man_pages.html</link>
+      <guid>https://b4night.github.io/posts/Fedora_docker_image_error_no_man_pages.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Fedora docker image error: no man pages</source>
+      <description>Fedora docker image error: no man pages Recently I installed fedora39 as WSL2. But today I found out that no man pages for every command. This is the reference: https://github.c...</description>
+      <category>Useful Skills</category>
+      <category>Fedora docker image error! no man pages.md</category>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Recently I installed fedora39 as WSL2. But today I found out that no man pages for every command.</p>
+<p>This is the reference: <a href="https://github.com/fedora-cloud/docker-brew-fedora/issues/9" target="_blank" rel="noopener noreferrer">https://github.com/fedora-cloud/docker-brew-fedora/issues/9</a></p>
+<h1>Tl;DR</h1>
+<ol>
+<li>Comment <code>tsflags=nodocs</code> in <code>/etc/dnf/dnf.conf</code></li>
+<li>Reinstall everything: <code>sudo dnf reinstall $(sudo dnf list --installed | awk '{print $1}')</code>.</li>
+</ol>
+<h1>Reasons</h1>
+<p>The default configuration: <code>tsflags=nodocs</code> will refuse to install man-pages of the commands or softwares we install. So if we remove this configuration and reinstall all of the packages, their man-pages will be installed correctly.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>A easy command to check IP</title>
       <link>https://b4night.github.io/posts/A_easy_command_to_check_IP.html</link>
