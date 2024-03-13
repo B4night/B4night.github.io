@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Open folder at terminal. Linux
 tags: []
 categories:
   - Useful Skills
-  - Open folder at terminal. Linux.md
-date: 2024-02-05
 ---
 
 # Open folder at terminal. Linux

@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Using ssh through SOCKS5 proxy.
 tags: []
 categories:
   - Useful Skills
-  - Using ssh through SOCKS5 proxy.md
-date: 2024-02-05
 ---
 
 # Using ssh through SOCKS5 proxy.

@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Joplin exits full screen in Linux
 tags: []
 categories:
   - Useful Skills
-  - Joplin exits full screen in Linux.md
-date: 2024-02-05
 ---
 
 # Joplin exits full screen in Linux

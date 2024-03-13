@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-11
 title: So excited about my first macbook
 tags: []
 categories:
   - 随笔
-  - So excited about my first macbook.md
-date: 2024-02-11
 ---
 
 # So excited about my first macbook

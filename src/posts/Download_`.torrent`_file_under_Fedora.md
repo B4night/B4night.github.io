@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Download `.torrent` file under Fedora
 tags: []
 categories:
   - Useful Skills
-  - Download `.torrent` file under Fedora.md
-date: 2024-02-05
 ---
 
 # Download `.torrent` file under Fedora

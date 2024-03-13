@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Watch a process with pid under Linux.
 tags: []
 categories:
   - Useful Skills
-  - Watch a process with pid under Linux.md
-date: 2024-02-05
 ---
 
 # Watch a process with pid under Linux.

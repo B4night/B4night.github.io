@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Fedora set display scale 150 percent(gnome)
 tags: []
 categories:
   - Useful Skills
-  - Fedora set display scale 150 percent(gnome).md
-date: 2024-02-05
 ---
 
 # Fedora set display scale 150 percent(gnome)

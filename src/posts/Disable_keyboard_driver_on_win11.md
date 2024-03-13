@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-08
 title: Disable keyboard driver on win11
 tags: []
 categories:
   - Useful Skills
-  - Disable keyboard driver on win11.md
-date: 2024-02-08
 ---
 
 # Disable keyboard driver on win11

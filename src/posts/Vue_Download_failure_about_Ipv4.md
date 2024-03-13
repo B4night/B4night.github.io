@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Vue Download failure about Ipv4
 tags: []
 categories:
   - Useful Skills
-  - Vue Download failure about Ipv4 .md
-date: 2024-02-05
 ---
 
 # Vue Download failure about Ipv4

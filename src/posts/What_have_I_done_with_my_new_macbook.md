@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-12
 title: What have I done with my new macbook
 tags: []
 categories:
   - Config new device
-  - What have I done with my new macbook.md
-date: 2024-02-12
 ---
 
 # What have I done with my new macbook

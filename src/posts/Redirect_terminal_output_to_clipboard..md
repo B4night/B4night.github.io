@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-05
 title: Redirect terminal output to clipboard.
 tags: []
 categories:
   - Useful Skills
-  - Redirect terminal output to clipboard.md
-date: 2024-02-05
 ---
 
 # Redirect terminal output to clipboard.

@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-09
 title: 使用clash verge和chrome extrnsion proxy omega来访问互联网
 tags: []
 categories:
   - Useful Skills
-  - 使用clash verge和chrome extrnsion proxy omega来访问互联网.md
-date: 2024-02-09
 ---
 
 # 使用clash verge和chrome extrnsion proxy omega来访问互联网

@@ -1,11 +1,10 @@
 ---
 author: B4night
+date: 2024-02-09
 title: 2024新春快乐 Happy Chinese New Year
 tags: []
 categories:
   - 随笔
-  - 2024新春快乐 Happy Chinese New Year.md
-date: 2024-02-09
 ---
 
 # 2024新春快乐 Happy Chinese New Year
