@@ -6,19 +6,40 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Wed, 13 Mar 2024 12:09:33 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 12:09:33 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 12:14:56 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 12:14:56 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Useful Skills</category>
+    <category>How to extend the sustainability of battery while using Linux.md</category>
     <category>Fedora docker image error! no man pages.md</category>
+    <category>A easy command to check IP.md</category>
+    <category>Create WSL2 with distro fedora.md</category>
     <category>Linux Trick! Create desktop entries for apps.md</category>
     <category>Program executed by Linux Terminal has the same proxy with the terminal.md</category>
     <category>Typora+upgit+tcyun! upload img to imgbed.md</category>
     <category>Useful script sharing! easy git push.md</category>
     <category>git push fatal! The remote end hung up unexpectedly.md</category>
+    <category>Set github pages for repo.md</category>
     <category>Config new device</category>
+    <category>What have I done with my new macbook.md</category>
     <category>随笔</category>
+    <category>So excited about my first macbook.md</category>
+    <category>2024新春快乐 Happy Chinese New Year.md</category>
+    <category>使用clash verge和chrome extrnsion proxy omega来访问互联网.md</category>
+    <category>Disable keyboard driver on win11.md</category>
+    <category>Download `.torrent` file under Fedora.md</category>
+    <category>Fedora set display scale 150 percent(gnome).md</category>
+    <category>Git switch branches with modified files.md</category>
+    <category>Joplin exits full screen in Linux.md</category>
+    <category>Open folder at terminal. Linux.md</category>
+    <category>Redirect terminal output to clipboard.md</category>
+    <category>Set Bluetooth off as default at rebooting in Fedora.md</category>
+    <category>Set default editor in Linux.md</category>
+    <category>Using ssh through SOCKS5 proxy.md</category>
+    <category>Vue Download failure about Ipv4 .md</category>
+    <category>Watch a process with pid under Linux.md</category>
+    <category>git rebase and git amend.md</category>
     <item>
       <title>Fedora docker image error: no man pages</title>
       <link>https://b4night.github.io/posts/Fedora_docker_image_error__no_man_pages.html</link>
@@ -46,6 +67,7 @@
       <source url="https://b4night.github.io/rss.xml">How to extend the sustainability of battery while using Linux.</source>
       <description>How to extend the sustainability of battery while using Linux. Today I am gonna show you guys a powerful tool to improve battery sustainability. And it&amp;apos;s name is tlp. Download l...</description>
       <category>Useful Skills</category>
+      <category>How to extend the sustainability of battery while using Linux.md</category>
       <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I am gonna show you guys a powerful tool to improve battery sustainability.</p>
@@ -86,6 +108,7 @@ $ <span class="token function">sudo</span> tlp-stat
       <source url="https://b4night.github.io/rss.xml">A easy command to check IP</source>
       <description>A easy command to check IP When we execute ifconfig or ipconfig, it often shows the private IP. There is a easy way to know our public IP. curl myip.ipip.net This command return...</description>
       <category>Useful Skills</category>
+      <category>A easy command to check IP.md</category>
       <pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>When we execute <code>ifconfig</code> or <code>ipconfig</code>, it often shows the private IP. There is a easy way to know our public IP.</p>
@@ -100,6 +123,7 @@ $ <span class="token function">sudo</span> tlp-stat
       <source url="https://b4night.github.io/rss.xml">Create WSL2 with distro fedora</source>
       <description>Create WSL2 with distro fedora Reference: https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows Enable wsl2 on windows Search Turn Windows Features on or off...</description>
       <category>Useful Skills</category>
+      <category>Create WSL2 with distro fedora.md</category>
       <pubDate>Tue, 20 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Reference: <a href="https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows" target="_blank" rel="noopener noreferrer">https://www.linuxfordevices.com/tutorials/linux/install-fedora-on-windows</a></p>
@@ -277,6 +301,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">Set github pages for repo</source>
       <description>Set github pages for repo Recently I uploaded my portfolio to github repo portfolio and deployed github pages for it. So today I am gonna talk about what to be done to deploy gi...</description>
       <category>Useful Skills</category>
+      <category>Set github pages for repo.md</category>
       <pubDate>Wed, 14 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Recently I uploaded my portfolio to github repo <a href="https://github.com/B4night/portfolio" target="_blank" rel="noopener noreferrer">portfolio</a> and deployed github pages for it. So today I am gonna talk about what to be done to deploy github pages for a github repo.</p>
@@ -330,6 +355,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">What have I done with my new macbook</source>
       <description>What have I done with my new macbook I bought a MacBook to try macOS. It&amp;apos;s a UNIX-like system, just like Linux. I mainly use Fedora38 recently and it&amp;apos;s time to try another branc...</description>
       <category>Config new device</category>
+      <category>What have I done with my new macbook.md</category>
       <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>I bought a MacBook to try macOS. It's a UNIX-like system, just like Linux. I mainly use <code>Fedora38</code> recently and it's time to try another branch of Operating Systems.</p>
@@ -389,6 +415,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">So excited about my first macbook</source>
       <description>So excited about my first macbook I started using windows operating system since I was 10 years old. After 12 years of using that(basically playing games on it) and 3 years of u...</description>
       <category>随笔</category>
+      <category>So excited about my first macbook.md</category>
       <pubDate>Sun, 11 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>I started using <code>windows</code> operating system since I was 10 years old. After 12 years of using that(basically playing games on it) and 3 years of using Linux(ubuntu and fedora),  I am about to have my first <code>Mac OS</code> device.</p>
@@ -403,6 +430,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">2024新春快乐 Happy Chinese New Year</source>
       <description>2024新春快乐 Happy Chinese New Year 今年的年味比往年浓了很多, 公园里, 小区里都是放烟花的人, 据同学说警察也在一边观看, 没有阻拦. 过去几年, 人们的心中都憋着气, 平日里的困苦彷徨, 都让它们随着烟花消失吧. 希望2024年, 生活会更好. </description>
       <category>随笔</category>
+      <category>2024新春快乐 Happy Chinese New Year.md</category>
       <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>今年的年味比往年浓了很多, 公园里, 小区里都是放烟花的人, 据同学说警察也在一边观看, 没有阻拦. 过去几年, 人们的心中都憋着气, 平日里的困苦彷徨, 都让它们随着烟花消失吧.</p>
@@ -416,6 +444,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">使用clash verge和chrome extrnsion proxy omega来访问互联网</source>
       <description>使用clash verge和chrome extrnsion proxy omega来访问互联网 这半年来, 我已经帮助好几个朋友配置clash verge和chrome, 以便快捷的访问互联网. 本篇博客记录一下所需步骤, 以后可以直接转发给有需要的朋友. 1. 下载clash verge clash verge的github链接是: https:/...</description>
       <category>Useful Skills</category>
+      <category>使用clash verge和chrome extrnsion proxy omega来访问互联网.md</category>
       <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>这半年来, 我已经帮助好几个朋友配置clash verge和chrome, 以便快捷的访问互联网. 本篇博客记录一下所需步骤, 以后可以直接转发给有需要的朋友.</p>
@@ -465,6 +494,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">Disable keyboard driver on win11</source>
       <description>Disable keyboard driver on win11 Today I ran into a hardware bug which was really annoying. My laptop keyboard inputed r constantly and I couldn&amp;apos;t fix it. I think it&amp;apos;s because t...</description>
       <category>Useful Skills</category>
+      <category>Disable keyboard driver on win11.md</category>
       <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I ran into a hardware bug which was really annoying. My laptop keyboard inputed <code>r</code> constantly and I couldn't fix it. I think it's because the motherboard is rotten. I could not open and remove the corrupted part. So the easiest way is disabling keyboard driver and use external keyboard.</p>
@@ -486,6 +516,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">Download `.torrent` file under Fedora</source>
       <description>Download .torrent file under Fedora We need to download trasmission first to download from a .torrent file. We use transmission-gtk to invoke the app and then choose .torrent fi...</description>
       <category>Useful Skills</category>
+      <category>Download `.torrent` file under Fedora.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>We need to download <code>trasmission</code> first to download from a <code>.torrent</code> file.</p>
@@ -499,6 +530,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">Fedora set display scale 150 percent(gnome)</source>
       <description>Fedora set display scale 150 percent(gnome) The default display options are 100%, 200%, 300%. It’s awkward because some people might want to customize the display scale. There’s...</description>
       <category>Useful Skills</category>
+      <category>Fedora set display scale 150 percent(gnome).md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The default display options are <code>100%, 200%, 300%</code>. It’s awkward because some people might want to customize the display scale.</p>
@@ -522,6 +554,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">Git switch branches with modified files</source>
       <description>Git switch branches with modified files I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use git add to track m...</description>
       <category>Useful Skills</category>
+      <category>Git switch branches with modified files.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>I have to switch between different branches to develop, so that there is a problem that some times I don’t want to use <code>git add</code> to track modified too early and I have to switch another branch.</p>
@@ -545,6 +578,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">Joplin exits full screen in Linux</source>
       <description>Joplin exits full screen in Linux Today I maximized joplin when I was using it. But when I wanted to change the options, I used f11 to exit full screen. However, f11 is bonded t...</description>
       <category>Useful Skills</category>
+      <category>Joplin exits full screen in Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I maximized joplin when I was using it. But when I wanted to change the options, I used <code>f11</code> to exit full screen. However, <code>f11</code> is bonded to another feature, so that I can’t use it to exit.</p>
@@ -592,6 +626,7 @@ Exec=typora
       <source url="https://b4night.github.io/rss.xml">Open folder at terminal. Linux</source>
       <description>Open folder at terminal. Linux The commend we need to use today is xdg-open . Below is a brief description: DESCRIPTION xdg-open opens a file or URL in the user’s preferred appl...</description>
       <category>Useful Skills</category>
+      <category>Open folder at terminal. Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The commend we need to use today is <code>xdg-open</code> .</p>
@@ -628,6 +663,7 @@ application for files of that type. xdg-open supports file, ftp, http and https 
       <source url="https://b4night.github.io/rss.xml">Redirect terminal output to clipboard.</source>
       <description>Redirect terminal output to clipboard. This post is about using xclip command to redirect the output of a command to clipboard. install xclip use command cat output | xclip -sel...</description>
       <category>Useful Skills</category>
+      <category>Redirect terminal output to clipboard.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>This post is about using <code>xclip</code> command to redirect the output of a command to clipboard.</p>
@@ -647,6 +683,7 @@ e.g. <code>alias clip=”xclip -selection clipboard”</code></li>
       <source url="https://b4night.github.io/rss.xml">Set Bluetooth off as default at rebooting in Fedora</source>
       <description>Set Bluetooth off as default at rebooting in Fedora We need to edit the file /etc/bluetooth/main.conf Find the line AutoEnable=true , change it to AutoEnable=false and voila, Bl...</description>
       <category>Useful Skills</category>
+      <category>Set Bluetooth off as default at rebooting in Fedora.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>We need to edit the file <code>/etc/bluetooth/main.conf</code></p>
@@ -660,6 +697,7 @@ e.g. <code>alias clip=”xclip -selection clipboard”</code></li>
       <source url="https://b4night.github.io/rss.xml">Set default editor in Linux</source>
       <description>Set default editor in Linux This need to edit the config file of the shell you are using. For example, I am using zsh right now so that I have to change ~/.zshrc . All I have to...</description>
       <category>Useful Skills</category>
+      <category>Set default editor in Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>This need to edit the config file of the shell you are using.</p>
@@ -743,6 +781,7 @@ secret_key = "xxx"
       <source url="https://b4night.github.io/rss.xml">Using ssh through SOCKS5 proxy.</source>
       <description>Using ssh through SOCKS5 proxy. Below are operations on Fedora39. Download netcat . In Ubuntu-like system, nc is needed. Edit ~/.ssh/config Add lines like: In essence, this conf...</description>
       <category>Useful Skills</category>
+      <category>Using ssh through SOCKS5 proxy.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Below are operations on Fedora39.</p>
@@ -761,6 +800,7 @@ secret_key = "xxx"
       <source url="https://b4night.github.io/rss.xml">Vue Download failure about Ipv4</source>
       <description>Vue Download failure about Ipv4 Today I ran into fail when downloading vue using command npm install -g @vue/cli , after changing several mirror registry, the fail was still the...</description>
       <category>Useful Skills</category>
+      <category>Vue Download failure about Ipv4 .md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>Today I ran into fail when downloading vue using command <code>npm install -g @vue/cli</code> , after changing several mirror registry, the fail was still there.</p>
@@ -776,6 +816,7 @@ secret_key = "xxx"
       <source url="https://b4night.github.io/rss.xml">Watch a process with pid under Linux.</source>
       <description>Watch a process with pid under Linux. We need pidstat command to monitor processes. e.g.: pidstat -p [pid] 1 , this can print the status each second. </description>
       <category>Useful Skills</category>
+      <category>Watch a process with pid under Linux.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>We need <code>pidstat</code> command to monitor processes.</p>
@@ -805,6 +846,7 @@ git config ssh.postBuffer 524288000
       <source url="https://b4night.github.io/rss.xml">git rebase and git amend</source>
       <description>git rebase and git amend The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations. Set typora options 2. downlo...</description>
       <category>Useful Skills</category>
+      <category>git rebase and git amend.md</category>
       <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>The image we insert to typora can be uploaded to tcyun(or other server) via upgit. All we need to do is several operations.</p>
