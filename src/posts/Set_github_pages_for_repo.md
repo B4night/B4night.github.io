@@ -1,10 +1,11 @@
 ---
 author: B4night
-date: 2024-02-14
 title: Set github pages for repo
 tags: []
 categories:
   - Useful Skills
+  - Set github pages for repo.md
+date: 2024-02-14
 ---
 
 # Set github pages for repo

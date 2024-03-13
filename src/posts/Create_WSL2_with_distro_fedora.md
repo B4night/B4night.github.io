@@ -1,10 +1,11 @@
 ---
 author: B4night
-date: 2024-02-20
 title: Create WSL2 with distro fedora
 tags: []
 categories:
   - Useful Skills
+  - Create WSL2 with distro fedora.md
+date: 2024-02-20
 ---
 
 # Create WSL2 with distro fedora

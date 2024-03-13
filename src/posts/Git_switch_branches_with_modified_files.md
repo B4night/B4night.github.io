@@ -1,10 +1,11 @@
 ---
 author: B4night
-date: 2024-02-05
 title: Git switch branches with modified files
 tags: []
 categories:
   - Useful Skills
+  - Git switch branches with modified files.md
+date: 2024-02-05
 ---
 
 # Git switch branches with modified files

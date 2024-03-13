@@ -1,10 +1,11 @@
 ---
 author: B4night
-date: 2024-02-05
 title: Set Bluetooth off as default at rebooting in Fedora
 tags: []
 categories:
   - Useful Skills
+  - Set Bluetooth off as default at rebooting in Fedora.md
+date: 2024-02-05
 ---
 
 # Set Bluetooth off as default at rebooting in Fedora

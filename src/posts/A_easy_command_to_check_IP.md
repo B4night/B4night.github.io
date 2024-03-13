@@ -1,10 +1,11 @@
 ---
 author: B4night
-date: 2024-02-21
 title: A easy command to check IP
 tags: []
 categories:
   - Useful Skills
+  - A easy command to check IP.md
+date: 2024-02-21
 ---
 
 # A easy command to check IP

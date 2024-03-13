@@ -1,10 +1,11 @@
 ---
 author: B4night
-date: 2024-03-13
 title: How to extend the sustainability of battery while using Linux.
 tags: []
 categories:
   - Useful Skills
+  - How to extend the sustainability of battery while using Linux.md
+date: 2024-03-13
 ---
 
 # How to extend the sustainability of battery while using Linux.

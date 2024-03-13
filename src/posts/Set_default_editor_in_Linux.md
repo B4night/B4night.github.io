@@ -1,10 +1,11 @@
 ---
 author: B4night
-date: 2024-02-05
 title: Set default editor in Linux
 tags: []
 categories:
   - Useful Skills
+  - Set default editor in Linux.md
+date: 2024-02-05
 ---
 
 # Set default editor in Linux
