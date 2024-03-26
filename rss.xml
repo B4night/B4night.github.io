@@ -6,13 +6,14 @@
     <link>https://b4night.github.io/</link>
     <description>A place where I post my thoughts</description>
     <language>en-US</language>
-    <pubDate>Tue, 26 Mar 2024 08:35:55 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Mar 2024 08:35:55 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Mar 2024 15:32:17 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Mar 2024 15:32:17 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Useful Skills</category>
+    <category>Set customizable proxy for different applications.md</category>
     <category>rust</category>
     <category>Day1! Rust Learning.md</category>
-    <category>Useful Skills</category>
     <category>How to extend the sustainability of battery while using Linux.md</category>
     <category>Fedora docker image error! no man pages.md</category>
     <category>A easy command to check IP.md</category>
@@ -42,6 +43,42 @@
     <category>Vue Download failure about Ipv4 .md</category>
     <category>Watch a process with pid under Linux.md</category>
     <category>git rebase and git amend.md</category>
+    <item>
+      <title>Set customizable proxy for different applications</title>
+      <link>https://b4night.github.io/posts/Set_customizable_proxy_for_different_applications.html</link>
+      <guid>https://b4night.github.io/posts/Set_customizable_proxy_for_different_applications.html</guid>
+      <source url="https://b4night.github.io/rss.xml">Set customizable proxy for different applications</source>
+      <description>Problem Sometimes we want application A to access internet through proxy P1, and we want application B to access via proxy P2. In order to implement this requirement, we have to...</description>
+      <category>Useful Skills</category>
+      <category>Set customizable proxy for different applications.md</category>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>Sometimes we want application A to access internet through proxy P1, and we want application B to access via proxy P2. In order to implement this requirement, we have to use <code>proxifier</code>, which can set different proxies for different applications.</p>
+<h1>Download</h1>
+<p>Download this tool at this website: <a href="https://www.proxifier.com/" target="_blank" rel="noopener noreferrer">https://www.proxifier.com/</a></p>
+<h1>Configuration</h1>
+<h2>Set proxy server information</h2>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232639171.png" alt="image-20240326232639171" tabindex="0" loading="lazy"><figcaption>image-20240326232639171</figcaption></figure>
+<p>Then click <code>add</code> to add proxy server information</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232702129.png" alt="image-20240326232702129" tabindex="0" loading="lazy"><figcaption>image-20240326232702129</figcaption></figure>
+<p>Enter server information</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232721588.png" alt="image-20240326232721588" tabindex="0" loading="lazy"><figcaption>image-20240326232721588</figcaption></figure>
+<p>Now we can see the server we added.</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232750177.png" alt="image-20240326232750177" tabindex="0" loading="lazy"><figcaption>image-20240326232750177</figcaption></figure>
+<h2>Set proxy rules</h2>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232419994.png" alt="image-20240326232419994" tabindex="0" loading="lazy"><figcaption>image-20240326232419994</figcaption></figure>
+<p>Click <code>add</code> to add rules.</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232442638.png" alt="image-20240326232442638" tabindex="0" loading="lazy"><figcaption>image-20240326232442638</figcaption></figure>
+<p>Then click <code>browse</code> to choose application which we want it to access internet via customized proxy.</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232552332.png" alt="image-20240326232552332" tabindex="0" loading="lazy"><figcaption>image-20240326232552332</figcaption></figure>
+<p>Finally we can config this page like below</p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232928248.png" alt="image-20240326232928248" tabindex="0" loading="lazy"><figcaption>image-20240326232928248</figcaption></figure>
+<p>Then we can find this rule in <code>Proxification Rules</code></p>
+<figure><img src="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326233001746.png" alt="image-20240326233001746" tabindex="0" loading="lazy"><figcaption>image-20240326233001746</figcaption></figure>
+<p>If we enable this rule, then <code>steam.exe</code> will access internet via the proxy server we set before.</p>
+]]></content:encoded>
+      <enclosure url="https://joplin-imgbed-1312299157.cos.ap-nanjing.myqcloud.com/image-20240326232639171.png" type="image/png"/>
+    </item>
     <item>
       <title>Day1: Rust Learning</title>
       <link>https://b4night.github.io/posts/Day1_Rust_Learning.html</link>
