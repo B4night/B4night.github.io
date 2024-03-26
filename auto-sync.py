@@ -26,7 +26,7 @@ with open(config_file_path, 'w', encoding='utf-8') as file:
     file.write(config_content)
 
 # Execute mark-magic
-subprocess.run(["npx", "mark-magic"], check=True, shell=True)
+subprocess.run(["npx", "mark-magic"], check=True)
 
 # Process Markdown files
 hexo_dir = "./hexo/source/_posts"
@@ -52,7 +52,7 @@ for md_file in os.listdir("."):
                 new_content.append(f"date: {file_date}\n")
             elif not re.match(r"(updated:|abbrlink:|layout:)", line):
                 new_content.append(line)
-        
+
         # Add author at the second line
         new_content.insert(1, "author: B4night\n")
 
@@ -77,8 +77,8 @@ with open(config_file_path, 'w', encoding='utf-8') as file:
 shutil.rmtree("hexo")
 
 # Build documentation, commit, and push changes
-subprocess.run(["npm", "run", "docs:build"], check=True, shell=True)
-subprocess.run(["git", "add", "."], check=True, shell=True)
+subprocess.run(["npm", "run", "docs:build"], check=True)
+subprocess.run(["git", "add", "."], check=True)
 today = datetime.now().strftime('%Y-%m-%d')
-subprocess.run(["git", "commit", "-s", "-m", f"update {today}"], check=True, shell=True)
-subprocess.run(["git", "push"], check=True, shell=True)
+subprocess.run(["git", "commit", "-s", "-m", f"update {today}"], check=True)
+subprocess.run(["git", "push"], check=True)
